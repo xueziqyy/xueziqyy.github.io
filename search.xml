@@ -54,4 +54,39 @@
         <tag>工作室后端招新题</tag>
       </tags>
   </entry>
+  <entry>
+    <title>论我在用hexo搭建博客过程中经历了什么</title>
+    <url>/2022/03/18/%E8%AE%BA%E6%88%91%E5%9C%A8%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%BB%8F%E5%8E%86%E4%BA%86%E4%BB%80%E4%B9%88/</url>
+    <content><![CDATA[<p>对于一个小白来说，搭建个人博客真的是一件很酷的事儿！！！</p>
+<!--main-->
+
+<h5 id="在一切开始之前："><a href="#在一切开始之前：" class="headerlink" title="在一切开始之前："></a>在一切开始之前：</h5><p>我大概了解markdown文件的作用机制，且已经掌握git和github的基本用法，于此同时，我对搭建个人博客的难度几乎毫无认识。</p>
+<h5 id="开始干活："><a href="#开始干活：" class="headerlink" title="开始干活："></a>开始干活：</h5><p><strong>搜索了”hexo“</strong>，了解到：</p>
+<p>Hexo是一个基于Node.js，快速、简洁且高效的博客框架。</p>
+<p>Hexo使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
+<p>搭配github pages可以实现实现不用购买服务器的情况下搭建个人博客。</p>
+<p>没有后端，只能本地写然后推送，换电脑要重新配置nodejs，还要把之前电脑上的文件拷贝到新电脑上，不然网站中之前的博客会被覆盖。</p>
+<p><strong>安装node.js</strong></p>
+<p>（在这一步因为校园网太拉跨了，27M的软件下了整整40分钟，我甚至忘了可以开热点）</p>
+<p><strong>安装hexo</strong></p>
+<p><strong>生成博客</strong></p>
+<p><strong>选择主题</strong></p>
+<p>选择了使用人数多的”NexT“，简洁，而且使用人数多，遇到问题也不怕。（同时也下载了花里胡哨的”butterfly“）</p>
+<p><strong>本地测试</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<p>此时遇到了第一个问题：localhost:4000不能访问。</p>
+<p>原因：电脑端口被占用了。hexo默认的端口是4000，我的电脑安装了福昕阅读器，把这个端口占了。</p>
+<p>解决：<code> hexo s -p 5000</code>，换端口5000。</p>
+<p><strong>配置网站基本信息</strong></p>
+<p>——tbc</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>工作室后端招新题</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
 </search>
