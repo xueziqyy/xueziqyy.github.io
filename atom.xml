@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-18T11:17:39.045Z</updated>
+  <updated>2022-03-18T11:59:00.712Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>农作物供需问题</title>
+    <link href="http://example.com/2022/03/18/%E5%86%9C%E4%BD%9C%E7%89%A9%E4%BE%9B%E9%9C%80%E9%97%AE%E9%A2%98/"/>
+    <id>http://example.com/2022/03/18/%E5%86%9C%E4%BD%9C%E7%89%A9%E4%BE%9B%E9%9C%80%E9%97%AE%E9%A2%98/</id>
+    <published>2022-03-18T11:56:17.000Z</published>
+    <updated>2022-03-18T11:59:00.712Z</updated>
+    
+    <content type="html"><![CDATA[<h5 id="题目："><a href="#题目：" class="headerlink" title="题目："></a>题目：</h5><p>农民伯伯种菜非常辛苦，一种蔬菜一年可能一次收成或者两次收成，可是人们天天都要吃饭，但是人对食 </p><p>物的需求是<strong>低量长期</strong>的，而作物的收获是<strong>大量但缓慢</strong>的。聪明的你想到<strong>哪几种</strong>方法来解决这个问题呢？ </p><p><strong>提交要求：在博客写下你的思考</strong></p><span id="more"></span><h5 id="我的思考："><a href="#我的思考：" class="headerlink" title="我的思考："></a>我的思考：</h5><h6 id="对于问题本身："><a href="#对于问题本身：" class="headerlink" title="对于问题本身："></a>对于问题本身：</h6><ol><li><p>恰当的储存、保鲜技术。（特别适用于生鲜类农产品）</p></li><li><p>大棚种植、室内种植、调节外界条件控制作物的持续少量成熟，持续供给市场。（适用于蔬菜水果）</p></li><li><p>食品加工，提高盈利的同时解决农作物供需的时间性难题。</p></li><li><p>品牌意识，做好营销，农产品成熟供给全国。大部分农作物有地域特点，适当的网络营销使当一个地区的一种作物集中成熟时不至于滞销。</p></li></ol><h6 id="继续思考："><a href="#继续思考：" class="headerlink" title="继续思考："></a>继续思考：</h6><p>除了农作物，还有什么存在“供需的时间性问题”？</p>]]></content>
+    
+    
+    <summary type="html">&lt;h5 id=&quot;题目：&quot;&gt;&lt;a href=&quot;#题目：&quot; class=&quot;headerlink&quot; title=&quot;题目：&quot;&gt;&lt;/a&gt;题目：&lt;/h5&gt;&lt;p&gt;农民伯伯种菜非常辛苦，一种蔬菜一年可能一次收成或者两次收成，可是人们天天都要吃饭，但是人对食 &lt;/p&gt;
+&lt;p&gt;物的需求是&lt;strong&gt;低量长期&lt;/strong&gt;的，而作物的收获是&lt;strong&gt;大量但缓慢&lt;/strong&gt;的。聪明的你想到&lt;strong&gt;哪几种&lt;/strong&gt;方法来解决这个问题呢？ &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;提交要求：在博客写下你的思考&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="工作室后端招新题" scheme="http://example.com/tags/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%90%8E%E7%AB%AF%E6%8B%9B%E6%96%B0%E9%A2%98/"/>
+    
+  </entry>
   
   <entry>
     <title>分苹果问题</title>

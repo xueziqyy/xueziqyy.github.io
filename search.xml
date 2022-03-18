@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>农作物供需问题</title>
+    <url>/2022/03/18/%E5%86%9C%E4%BD%9C%E7%89%A9%E4%BE%9B%E9%9C%80%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<h5 id="题目："><a href="#题目：" class="headerlink" title="题目："></a>题目：</h5><p>农民伯伯种菜非常辛苦，一种蔬菜一年可能一次收成或者两次收成，可是人们天天都要吃饭，但是人对食 </p>
+<p>物的需求是<strong>低量长期</strong>的，而作物的收获是<strong>大量但缓慢</strong>的。聪明的你想到<strong>哪几种</strong>方法来解决这个问题呢？ </p>
+<p><strong>提交要求：在博客写下你的思考</strong></p>
+<span id="more"></span>
+
+<h5 id="我的思考："><a href="#我的思考：" class="headerlink" title="我的思考："></a>我的思考：</h5><h6 id="对于问题本身："><a href="#对于问题本身：" class="headerlink" title="对于问题本身："></a>对于问题本身：</h6><ol>
+<li><p>恰当的储存、保鲜技术。（特别适用于生鲜类农产品）</p>
+</li>
+<li><p>大棚种植、室内种植、调节外界条件控制作物的持续少量成熟，持续供给市场。（适用于蔬菜水果）</p>
+</li>
+<li><p>食品加工，提高盈利的同时解决农作物供需的时间性难题。</p>
+</li>
+<li><p>品牌意识，做好营销，农产品成熟供给全国。大部分农作物有地域特点，适当的网络营销使当一个地区的一种作物集中成熟时不至于滞销。</p>
+</li>
+</ol>
+<h6 id="继续思考："><a href="#继续思考：" class="headerlink" title="继续思考："></a>继续思考：</h6><p>除了农作物，还有什么存在“供需的时间性问题”？</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>工作室后端招新题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>分苹果问题</title>
     <url>/2022/03/18/%E5%88%86%E8%8B%B9%E6%9E%9C%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h5 id="题目："><a href="#题目：" class="headerlink" title="题目："></a>题目：</h5><p>现在有 1023 个苹果，请你把它分成 10 堆，<strong>请给出一种分法，满足要求</strong>：当需要取得 0～1023 中任意数 </p>
