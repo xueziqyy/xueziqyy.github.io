@@ -58,7 +58,7 @@
     <title>论我在用hexo搭建博客过程中经历了什么</title>
     <url>/2022/03/18/%E8%AE%BA%E6%88%91%E5%9C%A8%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%BB%8F%E5%8E%86%E4%BA%86%E4%BB%80%E4%B9%88/</url>
     <content><![CDATA[<p>对于一个小白来说，搭建个人博客真的是一件很酷的事儿！！！</p>
-<!--main-->
+<span id="more"></span>
 
 <h5 id="在一切开始之前："><a href="#在一切开始之前：" class="headerlink" title="在一切开始之前："></a>在一切开始之前：</h5><p>我大概了解markdown文件的作用机制，且已经掌握git和github的基本用法，于此同时，我对搭建个人博客的难度几乎毫无认识。</p>
 <h5 id="开始干活："><a href="#开始干活：" class="headerlink" title="开始干活："></a>开始干活：</h5><p><strong>搜索了”hexo“</strong>，了解到：</p>
