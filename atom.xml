@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-03-19T03:52:09.436Z</updated>
+  <updated>2022-03-19T05:24:33.274Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2022/03/18/%E8%AE%BA%E6%88%91%E5%9C%A8%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%BB%8F%E5%8E%86%E4%BA%86%E4%BB%80%E4%B9%88/"/>
     <id>http://example.com/2022/03/18/%E8%AE%BA%E6%88%91%E5%9C%A8%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%BB%8F%E5%8E%86%E4%BA%86%E4%BB%80%E4%B9%88/</id>
     <published>2022-03-18T13:01:23.000Z</published>
-    <updated>2022-03-19T03:52:09.436Z</updated>
+    <updated>2022-03-19T05:24:33.274Z</updated>
     
-    <content type="html"><![CDATA[<p>对于一个小白来说，搭建个人博客真的是一件很酷的事儿！！！</p><span id="more"></span><h5 id="在一切开始之前："><a href="#在一切开始之前：" class="headerlink" title="在一切开始之前："></a>在一切开始之前：</h5><p>我大概了解markdown文件的作用机制，且已经掌握git和github的基本用法，于此同时，我对搭建个人博客的难度几乎毫无认识。</p><h5 id="开始干活："><a href="#开始干活：" class="headerlink" title="开始干活："></a>开始干活：</h5><p>**搜索了<code>hexo</code>**，了解到：</p><p>Hexo是一个基于Node.js，快速、简洁且高效的博客框架。</p><p>Hexo使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p><p>搭配github pages可以实现实现不用购买服务器的情况下搭建个人博客。</p><p>没有后端，只能本地写然后推送，换电脑要重新配置nodejs，还要把之前电脑上的文件拷贝到新电脑上，不然网站中之前的博客会被覆盖。</p><p><strong>安装node.js</strong></p><p>（在这一步因为校园网太拉跨了，27M的软件下了整整40分钟，我甚至忘了可以开热点）</p><p><strong>安装hexo</strong></p><p><strong>生成博客</strong></p><p><strong>选择主题</strong></p><p>选择了使用人数多的<code>NexT</code>，简洁，而且使用人数多，遇到问题也不怕。（同时也下载了花里胡哨的<code>butterfly</code>）</p><p><strong>本地测试</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure><p>此时遇到了第一个问题：localhost:4000不能访问。</p><p>原因：电脑端口被占用了。hexo默认的端口是4000，我的电脑安装了福昕阅读器，把这个端口占了。</p><p>解决：<code> hexo s -p 5000</code>，换端口5000。</p><p><strong>配置网站基本信息</strong></p><p>——tbc</p>]]></content>
+    <content type="html"><![CDATA[<p>对于一个小白来说，搭建个人博客真的是一件很酷的事儿！！！</p><span id="more"></span><h5 id="在一切开始之前："><a href="#在一切开始之前：" class="headerlink" title="在一切开始之前："></a>在一切开始之前：</h5><p>我大概了解markdown文件的作用机制，且已经掌握git和github的基本用法，于此同时，我对搭建个人博客的难度几乎毫无认识。</p><h5 id="开始干活："><a href="#开始干活：" class="headerlink" title="开始干活："></a>开始干活：</h5><p><strong>搜索了</strong><code>hexo</code>，了解到：</p><p>Hexo是一个基于Node.js，快速、简洁且高效的博客框架。</p><p>Hexo使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p><p>搭配github pages可以实现实现不用购买服务器的情况下搭建个人博客。</p><p>没有后端，只能本地写然后推送，换电脑要重新配置nodejs，还要把之前电脑上的文件拷贝到新电脑上，不然网站中之前的博客会被覆盖。</p><p><strong>安装node.js</strong></p><p>（在这一步因为校园网太拉跨了，27M的软件下了整整40分钟，我甚至忘了可以开热点）</p><p><strong>安装hexo</strong></p><p><strong>生成博客</strong></p><p><strong>选择主题</strong></p><p>选择了使用人数多的<code>NexT</code>，简洁，而且使用人数多，遇到问题也不怕。（同时也下载了花里胡哨的<code>butterfly</code>）</p><p><strong>本地测试</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure><p>此时遇到了第一个问题：localhost:4000不能访问。</p><p>原因：电脑端口被占用了。hexo默认的端口是4000，我的电脑安装了福昕阅读器，把这个端口占了。</p><p>解决：<code> hexo s -p 5000</code>，换端口5000。</p><p><strong>配置网站基本信息</strong></p><p>——tbc</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;对于一个小白来说，搭建个人博客真的是一件很酷的事儿！！！&lt;/p&gt;</summary>
@@ -44,13 +44,12 @@
     <link href="http://example.com/2022/03/18/%E5%86%9C%E4%BD%9C%E7%89%A9%E4%BE%9B%E9%9C%80%E9%97%AE%E9%A2%98/"/>
     <id>http://example.com/2022/03/18/%E5%86%9C%E4%BD%9C%E7%89%A9%E4%BE%9B%E9%9C%80%E9%97%AE%E9%A2%98/</id>
     <published>2022-03-18T11:56:17.000Z</published>
-    <updated>2022-03-18T11:59:00.712Z</updated>
+    <updated>2022-03-19T05:22:01.553Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="题目："><a href="#题目：" class="headerlink" title="题目："></a>题目：</h5><p>农民伯伯种菜非常辛苦，一种蔬菜一年可能一次收成或者两次收成，可是人们天天都要吃饭，但是人对食 </p><p>物的需求是<strong>低量长期</strong>的，而作物的收获是<strong>大量但缓慢</strong>的。聪明的你想到<strong>哪几种</strong>方法来解决这个问题呢？ </p><p><strong>提交要求：在博客写下你的思考</strong></p><span id="more"></span><h5 id="我的思考："><a href="#我的思考：" class="headerlink" title="我的思考："></a>我的思考：</h5><h6 id="对于问题本身："><a href="#对于问题本身：" class="headerlink" title="对于问题本身："></a>对于问题本身：</h6><ol><li><p>恰当的储存、保鲜技术。（特别适用于生鲜类农产品）</p></li><li><p>大棚种植、室内种植、调节外界条件控制作物的持续少量成熟，持续供给市场。（适用于蔬菜水果）</p></li><li><p>食品加工，提高盈利的同时解决农作物供需的时间性难题。</p></li><li><p>品牌意识，做好营销，农产品成熟供给全国。大部分农作物有地域特点，适当的网络营销使当一个地区的一种作物集中成熟时不至于滞销。</p></li></ol><h6 id="继续思考："><a href="#继续思考：" class="headerlink" title="继续思考："></a>继续思考：</h6><p>除了农作物，还有什么存在“供需的时间性问题”？</p>]]></content>
+    <content type="html"><![CDATA[<h5 id="题目："><a href="#题目：" class="headerlink" title="题目："></a>题目：</h5><p>农民伯伯种菜非常辛苦，一种蔬菜一年可能一次收成或者两次收成，可是人们天天都要吃饭，但是人对食物的需求是<strong>低量长期</strong>的，而作物的收获是<strong>大量但缓慢</strong>的。聪明的你想到<strong>哪几种</strong>方法来解决这个问题呢？ </p><p><strong>提交要求：在博客写下你的思考</strong></p><span id="more"></span><h5 id="我的思考："><a href="#我的思考：" class="headerlink" title="我的思考："></a>我的思考：</h5><h6 id="对于问题本身："><a href="#对于问题本身：" class="headerlink" title="对于问题本身："></a>对于问题本身：</h6><ol><li>恰当的储存、保鲜技术。（特别适用于生鲜类农产品）</li><li>大棚种植、室内种植、调节外界条件控制作物的持续少量成熟，持续供给市场。（适用于蔬菜水果）</li><li>食品加工，提高盈利的同时解决农作物供需的时间性难题。</li><li>品牌意识，做好营销，农产品成熟供给全国。大部分农作物有地域特点，适当的网络营销使当一个地区的一种作物集中成熟时不至于滞销。</li><li>食品工业化，将自然生长成熟的植物、动物制成营养粉、营养膏、营养液。</li><li>广泛种植不同种类、不同时期成熟的作物，保证一年四季的蔬菜食物供给。</li></ol><h6 id="继续思考："><a href="#继续思考：" class="headerlink" title="继续思考："></a>继续思考：</h6><p>除了农作物，还有什么存在“供需的时间性问题”？</p><ol><li>电力、水资源、矿产资源存在供需区域性难题，同时，用电存在高峰和低谷期。</li><li>水力发电存在时间性和区域性两大问题。</li></ol><p>对于资源的区域性问题，我国使用“西气东输”、“西电东送”、“南水北调”等政策人为调控。</p><p>对于电力、水电的时间性、季节性问题，我国水电站一般为抽水蓄能电站，利用电力负荷低谷时的电能抽水至上水库，在电力负荷高峰期再放水至下水库发电的水电站，将电网负荷低时的多余电能，转变为电网高峰时期的高价值电能。</p>]]></content>
     
     
-    <summary type="html">&lt;h5 id=&quot;题目：&quot;&gt;&lt;a href=&quot;#题目：&quot; class=&quot;headerlink&quot; title=&quot;题目：&quot;&gt;&lt;/a&gt;题目：&lt;/h5&gt;&lt;p&gt;农民伯伯种菜非常辛苦，一种蔬菜一年可能一次收成或者两次收成，可是人们天天都要吃饭，但是人对食 &lt;/p&gt;
-&lt;p&gt;物的需求是&lt;strong&gt;低量长期&lt;/strong&gt;的，而作物的收获是&lt;strong&gt;大量但缓慢&lt;/strong&gt;的。聪明的你想到&lt;strong&gt;哪几种&lt;/strong&gt;方法来解决这个问题呢？ &lt;/p&gt;
+    <summary type="html">&lt;h5 id=&quot;题目：&quot;&gt;&lt;a href=&quot;#题目：&quot; class=&quot;headerlink&quot; title=&quot;题目：&quot;&gt;&lt;/a&gt;题目：&lt;/h5&gt;&lt;p&gt;农民伯伯种菜非常辛苦，一种蔬菜一年可能一次收成或者两次收成，可是人们天天都要吃饭，但是人对食物的需求是&lt;strong&gt;低量长期&lt;/strong&gt;的，而作物的收获是&lt;strong&gt;大量但缓慢&lt;/strong&gt;的。聪明的你想到&lt;strong&gt;哪几种&lt;/strong&gt;方法来解决这个问题呢？ &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;提交要求：在博客写下你的思考&lt;/strong&gt;&lt;/p&gt;</summary>
     
     
