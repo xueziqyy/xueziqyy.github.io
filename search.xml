@@ -61,7 +61,7 @@
 <span id="more"></span>
 
 <h5 id="在一切开始之前："><a href="#在一切开始之前：" class="headerlink" title="在一切开始之前："></a>在一切开始之前：</h5><p>我大概了解markdown文件的作用机制，且已经掌握git和github的基本用法，于此同时，我对搭建个人博客的难度几乎毫无认识。</p>
-<h5 id="开始干活："><a href="#开始干活：" class="headerlink" title="开始干活："></a>开始干活：</h5><p><strong>搜索了”hexo“</strong>，了解到：</p>
+<h5 id="开始干活："><a href="#开始干活：" class="headerlink" title="开始干活："></a>开始干活：</h5><p>**搜索了<code>hexo</code>**，了解到：</p>
 <p>Hexo是一个基于Node.js，快速、简洁且高效的博客框架。</p>
 <p>Hexo使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p>
 <p>搭配github pages可以实现实现不用购买服务器的情况下搭建个人博客。</p>
@@ -71,7 +71,7 @@
 <p><strong>安装hexo</strong></p>
 <p><strong>生成博客</strong></p>
 <p><strong>选择主题</strong></p>
-<p>选择了使用人数多的”NexT“，简洁，而且使用人数多，遇到问题也不怕。（同时也下载了花里胡哨的”butterfly“）</p>
+<p>选择了使用人数多的<code>NexT</code>，简洁，而且使用人数多，遇到问题也不怕。（同时也下载了花里胡哨的<code>butterfly</code>）</p>
 <p><strong>本地测试</strong></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
 
