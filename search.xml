@@ -3,7 +3,9 @@
   <entry>
     <title>IDEA配置_第一段Java代码_思考题2</title>
     <url>/2022/03/30/IDEA%E9%85%8D%E7%BD%AE_%E7%AC%AC%E4%B8%80%E6%AE%B5Java%E4%BB%A3%E7%A0%81_%E6%80%9D%E8%80%83%E9%A2%982/</url>
-    <content><![CDATA[<h4 id="实现-IDEA-的安装，JDK-配置，环境配置，并运行一段-JAVA-程序（99-乘法表或冒泡排序）"><a href="#实现-IDEA-的安装，JDK-配置，环境配置，并运行一段-JAVA-程序（99-乘法表或冒泡排序）" class="headerlink" title="实现 IDEA 的安装，JDK 配置，环境配置，并运行一段 JAVA 程序（99 乘法表或冒泡排序）"></a>实现 IDEA 的安装，JDK 配置，环境配置，并运行一段 JAVA 程序（99 乘法表或冒泡排序）</h4><h5 id="关于idea安装："><a href="#关于idea安装：" class="headerlink" title="关于idea安装："></a>关于idea安装：</h5><p>最初，我在官方网站下载了最新的idea社区版，但是找到的教程几乎都是用更老的旗舰版，为了第一次安装和配置顺利，我找到了和教程一样的版本（ideau 2017.3）。（百度云的下载速度简直是压死我的最后一只骆驼. - .）</p>
+    <content><![CDATA[<h4 id="实现-IDEA-的安装，JDK-配置，环境配置，并运行一段-JAVA-程序（99-乘法表或冒泡排序）"><a href="#实现-IDEA-的安装，JDK-配置，环境配置，并运行一段-JAVA-程序（99-乘法表或冒泡排序）" class="headerlink" title="实现 IDEA 的安装，JDK 配置，环境配置，并运行一段 JAVA 程序（99 乘法表或冒泡排序）"></a>实现 IDEA 的安装，JDK 配置，环境配置，并运行一段 JAVA 程序（99 乘法表或冒泡排序）</h4><span id="more"></span>
+
+<h5 id="关于idea安装："><a href="#关于idea安装：" class="headerlink" title="关于idea安装："></a>关于idea安装：</h5><p>最初，我在官方网站下载了最新的idea社区版，但是找到的教程几乎都是用更老的旗舰版，为了第一次安装和配置顺利，我找到了和教程一样的版本（ideau 2017.3）。（百度云的下载速度简直是压死我的最后一只骆驼. - .）</p>
 <h5 id="关于jkd："><a href="#关于jkd：" class="headerlink" title="关于jkd："></a>关于jkd：</h5><p>java development kit的缩写，意思是java程序开发的工具包，是整个java开发的核心，它包含了JAVA的运行环境，JAVA工具和JAVA基础的类库。</p>
 <p>已知jdk的版本号很复杂，又已知jdk版本向下兼容，所以选择下载最新版。</p>
 <p>下载并且安装完成了，正在配置环境变量的时候突然发现：<code>找不到jre文件</code>，上网一查发现：<code>新版的jdk没有jre，jdk本身就包含jre</code>，于是继续配置环境变量、配置验证。</p>
@@ -42,7 +44,9 @@
   <entry>
     <title>Java历史和特性_C 语言实现面向对象_思考题3</title>
     <url>/2022/03/30/Java%E5%8E%86%E5%8F%B2%E5%92%8C%E7%89%B9%E6%80%A7_C%20%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1_%E6%80%9D%E8%80%83%E9%A2%983/</url>
-    <content><![CDATA[<h2 id="了解-JAVA-的历史和-JAVA-的特性，C-语言能够实现面向对象吗？"><a href="#了解-JAVA-的历史和-JAVA-的特性，C-语言能够实现面向对象吗？" class="headerlink" title="了解 JAVA 的历史和 JAVA 的特性，C 语言能够实现面向对象吗？"></a>了解 JAVA 的历史和 JAVA 的特性，C 语言能够实现面向对象吗？</h2><h3 id="（1）Java语言的发展轨迹"><a href="#（1）Java语言的发展轨迹" class="headerlink" title="（1）Java语言的发展轨迹"></a>（1）Java语言的发展轨迹</h3><blockquote>
+    <content><![CDATA[<h2 id="了解-JAVA-的历史和-JAVA-的特性，C-语言能够实现面向对象吗？"><a href="#了解-JAVA-的历史和-JAVA-的特性，C-语言能够实现面向对象吗？" class="headerlink" title="了解 JAVA 的历史和 JAVA 的特性，C 语言能够实现面向对象吗？"></a>了解 JAVA 的历史和 JAVA 的特性，C 语言能够实现面向对象吗？</h2><span id="more"></span>
+
+<h3 id="（1）Java语言的发展轨迹"><a href="#（1）Java语言的发展轨迹" class="headerlink" title="（1）Java语言的发展轨迹"></a>（1）Java语言的发展轨迹</h3><blockquote>
 <p>Java语言由Sun公司的詹姆斯高斯林等人于1990年代初开发Java语言的雏形，最初被命名为Oak。Java随着互联网技术的应用得到了快速发展，逐渐成为重要的网络编程语言。</p>
 <p>Java语言诞生于1994年，但可以溯源到1991年。1991年，在Sun公司工作的詹姆斯受命组织团队开发一个叫Oak的项目，目标设定在家用电器等小型系統的编程语言，來解决诸如电视机、电话、闹钟、烤面包机等家用电器的控制和通讯问题，由于这些智能化家电的市场需求没有预期的高，Sun公司放弃了该项计划。就在Oak几近失败之时。在1994年詹姆斯高斯林等人决定将该技术应用于互联网，将该语言改造为网络编程语言，这个语言就是Java语言的前身。</p>
 <p>语言改造后，OaK语言在互联网上得到很大的应用和发展，从一个默默无闻的小人物，突然变成了一个家喻户晓的大人物，而这时，发生了一件事情，促使詹姆斯对OaK语言改名。原来OaK名称已被一家显卡制造商注册，Oak这个名字不能再用了，詹姆斯于是在1995年将OaK更名为Java。</p>
@@ -95,6 +99,39 @@
       </tags>
   </entry>
   <entry>
+    <title>Java基本知识_思考题4</title>
+    <url>/2022/03/30/Java%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86-%E6%80%9D%E8%80%83%E9%A2%984/</url>
+    <content><![CDATA[<h4 id="学习-JAVA-基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象，-什么是继承"><a href="#学习-JAVA-基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象，-什么是继承" class="headerlink" title="学习 JAVA 基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象， 什么是继承"></a>学习 JAVA 基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象， 什么是继承</h4><span id="more"></span>
+
+<h5 id="方法（method）"><a href="#方法（method）" class="headerlink" title="方法（method）"></a>方法（method）</h5><p>按c++来理解：c++中的方法又叫成员函数。方法属于某个类，可以操纵该类的数据，public的方法是类留给外界的接口。</p>
+<blockquote>
+<p>方法和对象相关；函数和对象无关。</p>
+<p>Java中只有方法，C中只有函数，而C++里取决于是否在类中。</p>
+</blockquote>
+<h5 id="重载（overload）"><a href="#重载（overload）" class="headerlink" title="重载（overload）"></a>重载（overload）</h5><p><strong>静态多态性</strong>是指定义在一个类或一个函数中的同名函数，它们根据参数表（类型以及个数）区别语义，并通过静态联编实现，即<strong>函数重载overload</strong>。例如，在一个类中定义的不同参数的构造函数。</p>
+<h5 id="重写（override）"><a href="#重写（override）" class="headerlink" title="重写（override）"></a>重写（override）</h5><p><strong>overriding redefines the body of a virtual function.</strong> </p>
+<p><strong>动态多态性</strong>是指定义在一个类层次的不同类中的重载函数（即，继承自同一个基类的类中），它们一般具有相同的函数，因此要根据指针指向的对象所在类来区别语义，它通过动态联编实现，即<strong>函数重写override</strong>。</p>
+<h5 id="类（class）"><a href="#类（class）" class="headerlink" title="类（class）"></a>类（class）</h5><p>把描述一个对象的属性和行为的代码封装在一个“模块”（class）中，属性用成员变量定义，行为用方法（成员函数）定义，方法可以直接访问属于该类的对象中的属性。</p>
+<p>将类中的成员变量定义为私有的，只有这个类的方法才可以访问到这些成员变量（通过接口访问），这就基本上实现对象的封装。</p>
+<h5 id="对象（object）"><a href="#对象（object）" class="headerlink" title="对象（object）"></a>对象（object）</h5><p>对象是类的实例化。类定义了一个数据类型，而对象是该数据类型的一个实例化。</p>
+<blockquote>
+<p>OOP characteristics：</p>
+<ol>
+<li>Everything is an object.</li>
+<li><strong>A program is a bunch of objects telling each other what to do by sending messages.</strong></li>
+<li>Each object has its own memory made up of other objects.</li>
+<li>Every object has a type.</li>
+<li>All objects of a particular type can receive the same message.</li>
+</ol>
+</blockquote>
+<h5 id="继承（inheritance）"><a href="#继承（inheritance）" class="headerlink" title="继承（inheritance）"></a>继承（inheritance）</h5><p>在一个已经存在的类的基础上定义和实现一个类，新声明的类是已存在类的超集，可以加入新的成员变量，或修改原来的方法使之更适合特殊的需要（virtual）。</p>
+<p>继承是类之间的一种关系，提高了软件的可重用性和可扩展性。</p>
+]]></content>
+      <tags>
+        <tag>Java</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>农作物供需问题</title>
     <url>/2022/03/18/%E5%86%9C%E4%BD%9C%E7%89%A9%E4%BE%9B%E9%9C%80%E9%97%AE%E9%A2%98/</url>
     <content><![CDATA[<h5 id="题目："><a href="#题目：" class="headerlink" title="题目："></a>题目：</h5><p>农民伯伯种菜非常辛苦，一种蔬菜一年可能一次收成或者两次收成，可是人们天天都要吃饭，但是人对食物的需求是<strong>低量长期</strong>的，而作物的收获是<strong>大量但缓慢</strong>的。聪明的你想到<strong>哪几种</strong>方法来解决这个问题呢？ </p>
@@ -122,37 +159,6 @@
       </categories>
       <tags>
         <tag>工作室后端招新题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Java基本知识_思考题4</title>
-    <url>/2022/03/30/Java%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86-%E6%80%9D%E8%80%83%E9%A2%984/</url>
-    <content><![CDATA[<h4 id="学习-JAVA-基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象，-什么是继承"><a href="#学习-JAVA-基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象，-什么是继承" class="headerlink" title="学习 JAVA 基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象， 什么是继承"></a>学习 JAVA 基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象， 什么是继承</h4><h5 id="方法（method）"><a href="#方法（method）" class="headerlink" title="方法（method）"></a>方法（method）</h5><p>按c++来理解：c++中的方法又叫成员函数。方法属于某个类，可以操纵该类的数据，public的方法是类留给外界的接口。</p>
-<blockquote>
-<p>方法和对象相关；函数和对象无关。</p>
-<p>Java中只有方法，C中只有函数，而C++里取决于是否在类中。</p>
-</blockquote>
-<h5 id="重载（overload）"><a href="#重载（overload）" class="headerlink" title="重载（overload）"></a>重载（overload）</h5><p><strong>静态多态性</strong>是指定义在一个类或一个函数中的同名函数，它们根据参数表（类型以及个数）区别语义，并通过静态联编实现，即<strong>函数重载overload</strong>。例如，在一个类中定义的不同参数的构造函数。</p>
-<h5 id="重写（override）"><a href="#重写（override）" class="headerlink" title="重写（override）"></a>重写（override）</h5><p><strong>overriding redefines the body of a virtual function.</strong> </p>
-<p><strong>动态多态性</strong>是指定义在一个类层次的不同类中的重载函数（即，继承自同一个基类的类中），它们一般具有相同的函数，因此要根据指针指向的对象所在类来区别语义，它通过动态联编实现，即<strong>函数重写override</strong>。</p>
-<h5 id="类（class）"><a href="#类（class）" class="headerlink" title="类（class）"></a>类（class）</h5><p>把描述一个对象的属性和行为的代码封装在一个“模块”（class）中，属性用成员变量定义，行为用方法（成员函数）定义，方法可以直接访问属于该类的对象中的属性。</p>
-<p>将类中的成员变量定义为私有的，只有这个类的方法才可以访问到这些成员变量（通过接口访问），这就基本上实现对象的封装。</p>
-<h5 id="对象（object）"><a href="#对象（object）" class="headerlink" title="对象（object）"></a>对象（object）</h5><p>对象是类的实例化。类定义了一个数据类型，而对象是该数据类型的一个实例化。</p>
-<blockquote>
-<p>OOP characteristics：</p>
-<ol>
-<li>Everything is an object.</li>
-<li><strong>A program is a bunch of objects telling each other what to do by sending messages.</strong></li>
-<li>Each object has its own memory made up of other objects.</li>
-<li>Every object has a type.</li>
-<li>All objects of a particular type can receive the same message.</li>
-</ol>
-</blockquote>
-<h5 id="继承（inheritance）"><a href="#继承（inheritance）" class="headerlink" title="继承（inheritance）"></a>继承（inheritance）</h5><p>在一个已经存在的类的基础上定义和实现一个类，新声明的类是已存在类的超集，可以加入新的成员变量，或修改原来的方法使之更适合特殊的需要（virtual）。</p>
-<p>继承是类之间的一种关系，提高了软件的可重用性和可扩展性。</p>
-]]></content>
-      <tags>
-        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -184,7 +190,9 @@
   <entry>
     <title>数据库_云计算_思考题1</title>
     <url>/2022/03/30/%E6%95%B0%E6%8D%AE%E5%BA%93-%E4%BA%91%E8%AE%A1%E7%AE%97-%E6%80%9D%E8%80%83%E9%A2%981/</url>
-    <content><![CDATA[<h4 id="对数据库有什么了解？为什么要有数据库？和云计算有什么关系？"><a href="#对数据库有什么了解？为什么要有数据库？和云计算有什么关系？" class="headerlink" title="对数据库有什么了解？为什么要有数据库？和云计算有什么关系？"></a>对数据库有什么了解？为什么要有数据库？和云计算有什么关系？</h4><h5 id="（1）数据库"><a href="#（1）数据库" class="headerlink" title="（1）数据库"></a>（1）数据库</h5><p>数据库是“按照数据结构来组织、存储和管理数据的仓库”。是一个长期存储在计算机内的、有组织的、可共享的、统一管理的大量数据的集合。</p>
+    <content><![CDATA[<h4 id="对数据库有什么了解？为什么要有数据库？和云计算有什么关系？"><a href="#对数据库有什么了解？为什么要有数据库？和云计算有什么关系？" class="headerlink" title="对数据库有什么了解？为什么要有数据库？和云计算有什么关系？"></a>对数据库有什么了解？为什么要有数据库？和云计算有什么关系？</h4><span id="more"></span>
+
+<h5 id="（1）数据库"><a href="#（1）数据库" class="headerlink" title="（1）数据库"></a>（1）数据库</h5><p>数据库是“按照数据结构来组织、存储和管理数据的仓库”。是一个长期存储在计算机内的、有组织的、可共享的、统一管理的大量数据的集合。</p>
 <h5 id="（2）数据库的作用"><a href="#（2）数据库的作用" class="headerlink" title="（2）数据库的作用"></a>（2）数据库的作用</h5><p>组织、存储和管理数据。</p>
 <p>数据库可以存放和管理大量的被有序组织起来的数据，并且允许很多人同时使用里面的数据。</p>
 <h5 id="（3）云计算与数据库"><a href="#（3）云计算与数据库" class="headerlink" title="（3）云计算与数据库"></a>（3）云计算与数据库</h5><h6 id="云计算定义："><a href="#云计算定义：" class="headerlink" title="云计算定义："></a>云计算定义：</h6><p>第三方提供商通过网络动态提供及配置IT功能(硬件、软件或服务)。期望通过互联网络为用户提供按需使用的IT资源服务。</p>
