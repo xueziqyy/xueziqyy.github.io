@@ -66,7 +66,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Java,IDEA," />
 
 
 
@@ -77,14 +77,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="home">
-<meta property="og:url" content="http://example.com/home/index.html">
+<meta name="description" content="实现 IDEA 的安装，JDK 配置，环境配置，并运行一段 JAVA 程序（99 乘法表或冒泡排序）关于idea安装：最初，我在官方网站下载了最新的idea社区版，但是找到的教程几乎都是用更老的旗舰版，为了第一次安装和配置顺利，我找到了和教程一样的版本（ideau 2017.3）。（百度云的下载速度简直是压死我的最后一只骆驼. - .） 关于jkd：java development kit的缩写，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="IDEA配置_第一段Java代码_思考题2">
+<meta property="og:url" content="http://example.com/2022/03/30/IDEA%E9%85%8D%E7%BD%AE_%E7%AC%AC%E4%B8%80%E6%AE%B5Java%E4%BB%A3%E7%A0%81_%E6%80%9D%E8%80%83%E9%A2%982/index.html">
 <meta property="og:site_name" content="三人禾">
+<meta property="og:description" content="实现 IDEA 的安装，JDK 配置，环境配置，并运行一段 JAVA 程序（99 乘法表或冒泡排序）关于idea安装：最初，我在官方网站下载了最新的idea社区版，但是找到的教程几乎都是用更老的旗舰版，为了第一次安装和配置顺利，我找到了和教程一样的版本（ideau 2017.3）。（百度云的下载速度简直是压死我的最后一只骆驼. - .） 关于jkd：java development kit的缩写，">
 <meta property="og:locale">
-<meta property="article:published_time" content="2022-03-18T05:05:29.000Z">
-<meta property="article:modified_time" content="2022-03-18T05:05:29.363Z">
+<meta property="article:published_time" content="2022-03-30T15:24:04.000Z">
+<meta property="article:modified_time" content="2022-03-30T15:33:59.877Z">
 <meta property="article:author" content="xueziqyy">
+<meta property="article:tag" content="Java">
+<meta property="article:tag" content="IDEA">
 <meta name="twitter:card" content="summary">
 
 
@@ -115,13 +119,13 @@
 
 
 
-  <link rel="canonical" href="http://example.com/home/"/>
+  <link rel="canonical" href="http://example.com/2022/03/30/IDEA配置_第一段Java代码_思考题2/"/>
 
 
 
 
 
-  <title>home | 三人禾</title>
+  <title>IDEA配置_第一段Java代码_思考题2 | 三人禾</title>
   
 
 
@@ -281,33 +285,179 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/03/30/IDEA%E9%85%8D%E7%BD%AE_%E7%AC%AC%E4%B8%80%E6%AE%B5Java%E4%BB%A3%E7%A0%81_%E6%80%9D%E8%80%83%E9%A2%982/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/cats-touxiang1.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="三人禾">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">home</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
+          <h1 class="post-title" itemprop="name headline">IDEA配置_第一段Java代码_思考题2</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-03-30T23:24:04+08:00">
+                2022-03-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        
-      </div>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <h4 id="实现-IDEA-的安装，JDK-配置，环境配置，并运行一段-JAVA-程序（99-乘法表或冒泡排序）"><a href="#实现-IDEA-的安装，JDK-配置，环境配置，并运行一段-JAVA-程序（99-乘法表或冒泡排序）" class="headerlink" title="实现 IDEA 的安装，JDK 配置，环境配置，并运行一段 JAVA 程序（99 乘法表或冒泡排序）"></a>实现 IDEA 的安装，JDK 配置，环境配置，并运行一段 JAVA 程序（99 乘法表或冒泡排序）</h4><h5 id="关于idea安装："><a href="#关于idea安装：" class="headerlink" title="关于idea安装："></a>关于idea安装：</h5><p>最初，我在官方网站下载了最新的idea社区版，但是找到的教程几乎都是用更老的旗舰版，为了第一次安装和配置顺利，我找到了和教程一样的版本（ideau 2017.3）。（百度云的下载速度简直是压死我的最后一只骆驼. - .）</p>
+<h5 id="关于jkd："><a href="#关于jkd：" class="headerlink" title="关于jkd："></a>关于jkd：</h5><p>java development kit的缩写，意思是java程序开发的工具包，是整个java开发的核心，它包含了JAVA的运行环境，JAVA工具和JAVA基础的类库。</p>
+<p>已知jdk的版本号很复杂，又已知jdk版本向下兼容，所以选择下载最新版。</p>
+<p>下载并且安装完成了，正在配置环境变量的时候突然发现：<code>找不到jre文件</code>，上网一查发现：<code>新版的jdk没有jre，jdk本身就包含jre</code>，于是继续配置环境变量、配置验证。</p>
+<h5 id="关于api文档"><a href="#关于api文档" class="headerlink" title="关于api文档"></a>关于api文档</h5><h6 id="概述（来源网络）："><a href="#概述（来源网络）：" class="headerlink" title="概述（来源网络）："></a>概述（来源网络）：</h6><p>API(Application Programming Interface),应用程序编程接口。Java API是一本程序员的”字典”，是JDK提供给我们使用的类的说明文档。这些类底层的代码实现封装了起来，我们不需要关心这些类是如何实现的，只需要学习这些类如何使用即可。所以我们可以通过查询API的方式，来学习Java提供的类，并得知如何使用它们。</p>
+<h6 id="使用："><a href="#使用：" class="headerlink" title="使用："></a>使用：</h6><p>具体API查找步骤：</p>
+<ol>
+<li>打开参考⽂档（开始菜单中jdk目录下）</li>
+<li>寻找或在输⼊框⾥输⼊。</li>
+<li>看包。</li>
+<li>看类的解释和说明。</li>
+<li>学习构造⽅法。</li>
+<li>使⽤成员⽅法</li>
+</ol>
+<h5 id="关于第一个程序hello-world："><a href="#关于第一个程序hello-world：" class="headerlink" title="关于第一个程序hello world："></a>关于第一个程序hello world：</h5><p>几经波折。</p>
+<p>下载完成后激活失败，因为版本太老，已经不好找激活教程，差一点就想直接用最新的社区版，然后回看压缩包里的文件，发现自己漏了一个步骤，按要求操作后成功，并且顺带配置好了汉化包。</p>
+<p>第一个程序hello world运行时报错，发现可能原因是jdk版本过高导致的。然后我重新安装了jkd1.8并配置环境变量，然后新建项目运行，成功！</p>
+<h5 id="关于idea使用"><a href="#关于idea使用" class="headerlink" title="关于idea使用"></a>关于idea使用</h5><p>简单配置：主题、字体、文件编码</p>
+<p>创建（和删除）project、package、class、module</p>
+<p>查看项目配置</p>
+<p>使用快捷键和代码模板</p>
+<p>配置tomcat、maven、关联数据库</p>
+<p>使用调试功能</p>
+<p>生成javadoc、清理缓存和索引、插件使用</p>
+<h5 id="在idea中使用git和GitHub"><a href="#在idea中使用git和GitHub" class="headerlink" title="在idea中使用git和GitHub"></a>在idea中使用git和GitHub</h5><p>配置忽略文件</p>
+<p>定位git程序、登录GitHub账号</p>
+<p>git：init、add、commit、checkout、brunch（new、checkout、merge&#x2F;rebase）。</p>
+<p>GitHub：share、push、pull、clone</p>
+<h5 id="运行一段Java程序"><a href="#运行一段Java程序" class="headerlink" title="运行一段Java程序"></a>运行一段Java程序</h5><p><del>(目前条件有限，正猫在一个地方码字，暂时先不把代码和运行截图po上来，明天再搞)</del></p>
+<p>一些[关于merge和rebase的使用](<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/75499871">git merge和git rebase的区别, 切记：永远用rebase - 知乎 (zhihu.com)</a>)</p>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Java/" rel="tag"># Java</a>
+          
+            <a href="/tags/IDEA/" rel="tag"># IDEA</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2022/03/30/Java%E5%8E%86%E5%8F%B2%E5%92%8C%E7%89%B9%E6%80%A7_C%20%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1_%E6%80%9D%E8%80%83%E9%A2%983/" rel="next" title="Java历史和特性_C 语言实现面向对象_思考题3">
+                <i class="fa fa-chevron-left"></i> Java历史和特性_C 语言实现面向对象_思考题3
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2022/03/30/%E6%95%B0%E6%8D%AE%E5%BA%93-%E4%BA%91%E8%AE%A1%E7%AE%97-%E6%80%9D%E8%80%83%E9%A2%981/" rel="prev" title="数据库_云计算_思考题1">
+                数据库_云计算_思考题1 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -340,8 +490,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -421,6 +580,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%9E%E7%8E%B0-IDEA-%E7%9A%84%E5%AE%89%E8%A3%85%EF%BC%8CJDK-%E9%85%8D%E7%BD%AE%EF%BC%8C%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%EF%BC%8C%E5%B9%B6%E8%BF%90%E8%A1%8C%E4%B8%80%E6%AE%B5-JAVA-%E7%A8%8B%E5%BA%8F%EF%BC%8899-%E4%B9%98%E6%B3%95%E8%A1%A8%E6%88%96%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%EF%BC%89"><span class="nav-number">1.</span> <span class="nav-text">实现 IDEA 的安装，JDK 配置，环境配置，并运行一段 JAVA 程序（99 乘法表或冒泡排序）</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%85%B3%E4%BA%8Eidea%E5%AE%89%E8%A3%85%EF%BC%9A"><span class="nav-number">1.1.</span> <span class="nav-text">关于idea安装：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%85%B3%E4%BA%8Ejkd%EF%BC%9A"><span class="nav-number">1.2.</span> <span class="nav-text">关于jkd：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%85%B3%E4%BA%8Eapi%E6%96%87%E6%A1%A3"><span class="nav-number">1.3.</span> <span class="nav-text">关于api文档</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#%E6%A6%82%E8%BF%B0%EF%BC%88%E6%9D%A5%E6%BA%90%E7%BD%91%E7%BB%9C%EF%BC%89%EF%BC%9A"><span class="nav-number">1.3.1.</span> <span class="nav-text">概述（来源网络）：</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8%EF%BC%9A"><span class="nav-number">1.3.2.</span> <span class="nav-text">使用：</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8Fhello-world%EF%BC%9A"><span class="nav-number">1.4.</span> <span class="nav-text">关于第一个程序hello world：</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%85%B3%E4%BA%8Eidea%E4%BD%BF%E7%94%A8"><span class="nav-number">1.5.</span> <span class="nav-text">关于idea使用</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%9C%A8idea%E4%B8%AD%E4%BD%BF%E7%94%A8git%E5%92%8CGitHub"><span class="nav-number">1.6.</span> <span class="nav-text">在idea中使用git和GitHub</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%BF%90%E8%A1%8C%E4%B8%80%E6%AE%B5Java%E7%A8%8B%E5%BA%8F"><span class="nav-number">1.7.</span> <span class="nav-text">运行一段Java程序</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
