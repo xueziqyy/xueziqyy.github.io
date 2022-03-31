@@ -3,11 +3,11 @@
   <title>三人禾</title>
   
   <subtitle>0 error(s), 0 warning(s)</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://xueziqyy.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2022-03-30T15:38:54.261Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://xueziqyy.github.io/"/>
+  <updated>2022-03-30T23:58:47.691Z</updated>
+  <id>https://xueziqyy.github.io/</id>
   
   <author>
     <name>xueziqyy</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Java基本知识_思考题4</title>
-    <link href="http://example.com/2022/03/30/Java%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86-%E6%80%9D%E8%80%83%E9%A2%984/"/>
-    <id>http://example.com/2022/03/30/Java%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86-%E6%80%9D%E8%80%83%E9%A2%984/</id>
+    <link href="https://xueziqyy.github.io/2022/03/30/Java%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86-%E6%80%9D%E8%80%83%E9%A2%984/"/>
+    <id>https://xueziqyy.github.io/2022/03/30/Java%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86-%E6%80%9D%E8%80%83%E9%A2%984/</id>
     <published>2022-03-30T15:30:33.000Z</published>
-    <updated>2022-03-30T15:38:54.261Z</updated>
+    <updated>2022-03-30T23:58:47.691Z</updated>
     
     <content type="html"><![CDATA[<h4 id="学习-JAVA-基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象，-什么是继承"><a href="#学习-JAVA-基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象，-什么是继承" class="headerlink" title="学习 JAVA 基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象， 什么是继承"></a>学习 JAVA 基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象， 什么是继承</h4><span id="more"></span><h5 id="方法（method）"><a href="#方法（method）" class="headerlink" title="方法（method）"></a>方法（method）</h5><p>按c++来理解：c++中的方法又叫成员函数。方法属于某个类，可以操纵该类的数据，public的方法是类留给外界的接口。</p><blockquote><p>方法和对象相关；函数和对象无关。</p><p>Java中只有方法，C中只有函数，而C++里取决于是否在类中。</p></blockquote><h5 id="重载（overload）"><a href="#重载（overload）" class="headerlink" title="重载（overload）"></a>重载（overload）</h5><p><strong>静态多态性</strong>是指定义在一个类或一个函数中的同名函数，它们根据参数表（类型以及个数）区别语义，并通过静态联编实现，即<strong>函数重载overload</strong>。例如，在一个类中定义的不同参数的构造函数。</p><h5 id="重写（override）"><a href="#重写（override）" class="headerlink" title="重写（override）"></a>重写（override）</h5><p><strong>overriding redefines the body of a virtual function.</strong> </p><p><strong>动态多态性</strong>是指定义在一个类层次的不同类中的重载函数（即，继承自同一个基类的类中），它们一般具有相同的函数，因此要根据指针指向的对象所在类来区别语义，它通过动态联编实现，即<strong>函数重写override</strong>。</p><h5 id="类（class）"><a href="#类（class）" class="headerlink" title="类（class）"></a>类（class）</h5><p>把描述一个对象的属性和行为的代码封装在一个“模块”（class）中，属性用成员变量定义，行为用方法（成员函数）定义，方法可以直接访问属于该类的对象中的属性。</p><p>将类中的成员变量定义为私有的，只有这个类的方法才可以访问到这些成员变量（通过接口访问），这就基本上实现对象的封装。</p><h5 id="对象（object）"><a href="#对象（object）" class="headerlink" title="对象（object）"></a>对象（object）</h5><p>对象是类的实例化。类定义了一个数据类型，而对象是该数据类型的一个实例化。</p><blockquote><p>OOP characteristics：</p><ol><li>Everything is an object.</li><li><strong>A program is a bunch of objects telling each other what to do by sending messages.</strong></li><li>Each object has its own memory made up of other objects.</li><li>Every object has a type.</li><li>All objects of a particular type can receive the same message.</li></ol></blockquote><h5 id="继承（inheritance）"><a href="#继承（inheritance）" class="headerlink" title="继承（inheritance）"></a>继承（inheritance）</h5><p>在一个已经存在的类的基础上定义和实现一个类，新声明的类是已存在类的超集，可以加入新的成员变量，或修改原来的方法使之更适合特殊的需要（virtual）。</p><p>继承是类之间的一种关系，提高了软件的可重用性和可扩展性。</p>]]></content>
     
@@ -30,17 +30,25 @@
     
     
     
+    <category term="学习" scheme="https://xueziqyy.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="Java" scheme="http://example.com/tags/Java/"/>
+    <category term="后端" scheme="https://xueziqyy.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="Java" scheme="https://xueziqyy.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%90%8E%E7%AB%AF/Java/"/>
+    
+    
+    <category term="Java" scheme="https://xueziqyy.github.io/tags/Java/"/>
+    
+    <category term="工作室后端招新题" scheme="https://xueziqyy.github.io/tags/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%90%8E%E7%AB%AF%E6%8B%9B%E6%96%B0%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>数据库_云计算_思考题1</title>
-    <link href="http://example.com/2022/03/30/%E6%95%B0%E6%8D%AE%E5%BA%93-%E4%BA%91%E8%AE%A1%E7%AE%97-%E6%80%9D%E8%80%83%E9%A2%981/"/>
-    <id>http://example.com/2022/03/30/%E6%95%B0%E6%8D%AE%E5%BA%93-%E4%BA%91%E8%AE%A1%E7%AE%97-%E6%80%9D%E8%80%83%E9%A2%981/</id>
+    <link href="https://xueziqyy.github.io/2022/03/30/%E6%95%B0%E6%8D%AE%E5%BA%93-%E4%BA%91%E8%AE%A1%E7%AE%97-%E6%80%9D%E8%80%83%E9%A2%981/"/>
+    <id>https://xueziqyy.github.io/2022/03/30/%E6%95%B0%E6%8D%AE%E5%BA%93-%E4%BA%91%E8%AE%A1%E7%AE%97-%E6%80%9D%E8%80%83%E9%A2%981/</id>
     <published>2022-03-30T15:30:06.000Z</published>
-    <updated>2022-03-30T15:38:44.136Z</updated>
+    <updated>2022-03-30T23:58:49.559Z</updated>
     
     <content type="html"><![CDATA[<h4 id="对数据库有什么了解？为什么要有数据库？和云计算有什么关系？"><a href="#对数据库有什么了解？为什么要有数据库？和云计算有什么关系？" class="headerlink" title="对数据库有什么了解？为什么要有数据库？和云计算有什么关系？"></a>对数据库有什么了解？为什么要有数据库？和云计算有什么关系？</h4><span id="more"></span><h5 id="（1）数据库"><a href="#（1）数据库" class="headerlink" title="（1）数据库"></a>（1）数据库</h5><p>数据库是“按照数据结构来组织、存储和管理数据的仓库”。是一个长期存储在计算机内的、有组织的、可共享的、统一管理的大量数据的集合。</p><h5 id="（2）数据库的作用"><a href="#（2）数据库的作用" class="headerlink" title="（2）数据库的作用"></a>（2）数据库的作用</h5><p>组织、存储和管理数据。</p><p>数据库可以存放和管理大量的被有序组织起来的数据，并且允许很多人同时使用里面的数据。</p><h5 id="（3）云计算与数据库"><a href="#（3）云计算与数据库" class="headerlink" title="（3）云计算与数据库"></a>（3）云计算与数据库</h5><h6 id="云计算定义："><a href="#云计算定义：" class="headerlink" title="云计算定义："></a>云计算定义：</h6><p>第三方提供商通过网络动态提供及配置IT功能(硬件、软件或服务)。期望通过互联网络为用户提供按需使用的IT资源服务。</p><h6 id="云计算与数据库："><a href="#云计算与数据库：" class="headerlink" title="云计算与数据库："></a>云计算与数据库：</h6><p>云计算对传统数据库提出了新的要求。云数据库是云计算提供的服务之一。</p><p>为了应对云应用的研发需求，云上提供服务的数据库系统也相应发生了一些变化。云原生数据库是指通过云平台进行构建、部署、交付和自动运维的数据库服务。（来源网络）</p><p>该服务通常以DBaaS (Database-as-a-Service)的形态，将数据库架构和实现细节隐藏起来，采用多租户和资源有效分发的形式将云资源自动管理起来，为用户提供一个能够满足弹性伸缩、高可用、高可靠、高安全性、强一致等需求，且可以随时随地访问的数据库服务。（来源网络）</p><p>该服务具备自动化运维能力(仅需要极少的人力)，可提供自动备份和恢复、自动性能调优、自动对规模化的数据库集群的资源进行调节等可超越传统DBA所做工作的能力(具备智能数据库的特征)。这种能力使得云数据库系统托管和维护的成本降低，规模化地提高资源的利用率。（来源网络）</p><p>云数据库支持按量(如流量、存储量、调用次数、调用时长、核数、内存资源占用量等)制定多种定价策略，使用户可根据业务情况灵活匹配出最优计量模式，节约用户成本。（来源网络）</p><p>相关链接：<a href="%5B%E7%BB%88%E4%BA%8E%E6%9C%89%E4%BA%BA%E6%8A%8A%E4%BA%91%E8%AE%A1%E7%AE%97%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E5%85%B3%E7%B3%BB%E8%AE%B2%E6%98%8E%E7%99%BD%E4%BA%86-51CTO.COM%5D(https://www.51cto.com/article/689105.html)">数据库与云计算</a></p>]]></content>
     
@@ -49,19 +57,25 @@
     
     
     
+    <category term="学习" scheme="https://xueziqyy.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="数据库" scheme="http://example.com/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <category term="后端" scheme="https://xueziqyy.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%90%8E%E7%AB%AF/"/>
     
-    <category term="云计算" scheme="http://example.com/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/"/>
+    
+    <category term="工作室后端招新题" scheme="https://xueziqyy.github.io/tags/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%90%8E%E7%AB%AF%E6%8B%9B%E6%96%B0%E9%A2%98/"/>
+    
+    <category term="数据库" scheme="https://xueziqyy.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="云计算" scheme="https://xueziqyy.github.io/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/"/>
     
   </entry>
   
   <entry>
     <title>IDEA配置_第一段Java代码_思考题2</title>
-    <link href="http://example.com/2022/03/30/IDEA%E9%85%8D%E7%BD%AE_%E7%AC%AC%E4%B8%80%E6%AE%B5Java%E4%BB%A3%E7%A0%81_%E6%80%9D%E8%80%83%E9%A2%982/"/>
-    <id>http://example.com/2022/03/30/IDEA%E9%85%8D%E7%BD%AE_%E7%AC%AC%E4%B8%80%E6%AE%B5Java%E4%BB%A3%E7%A0%81_%E6%80%9D%E8%80%83%E9%A2%982/</id>
+    <link href="https://xueziqyy.github.io/2022/03/30/IDEA%E9%85%8D%E7%BD%AE_%E7%AC%AC%E4%B8%80%E6%AE%B5Java%E4%BB%A3%E7%A0%81_%E6%80%9D%E8%80%83%E9%A2%982/"/>
+    <id>https://xueziqyy.github.io/2022/03/30/IDEA%E9%85%8D%E7%BD%AE_%E7%AC%AC%E4%B8%80%E6%AE%B5Java%E4%BB%A3%E7%A0%81_%E6%80%9D%E8%80%83%E9%A2%982/</id>
     <published>2022-03-30T15:24:04.000Z</published>
-    <updated>2022-03-30T15:38:39.990Z</updated>
+    <updated>2022-03-30T23:58:48.573Z</updated>
     
     <content type="html"><![CDATA[<h4 id="实现-IDEA-的安装，JDK-配置，环境配置，并运行一段-JAVA-程序（99-乘法表或冒泡排序）"><a href="#实现-IDEA-的安装，JDK-配置，环境配置，并运行一段-JAVA-程序（99-乘法表或冒泡排序）" class="headerlink" title="实现 IDEA 的安装，JDK 配置，环境配置，并运行一段 JAVA 程序（99 乘法表或冒泡排序）"></a>实现 IDEA 的安装，JDK 配置，环境配置，并运行一段 JAVA 程序（99 乘法表或冒泡排序）</h4><span id="more"></span><h5 id="关于idea安装："><a href="#关于idea安装：" class="headerlink" title="关于idea安装："></a>关于idea安装：</h5><p>最初，我在官方网站下载了最新的idea社区版，但是找到的教程几乎都是用更老的旗舰版，为了第一次安装和配置顺利，我找到了和教程一样的版本（ideau 2017.3）。（百度云的下载速度简直是压死我的最后一只骆驼. - .）</p><h5 id="关于jkd："><a href="#关于jkd：" class="headerlink" title="关于jkd："></a>关于jkd：</h5><p>java development kit的缩写，意思是java程序开发的工具包，是整个java开发的核心，它包含了JAVA的运行环境，JAVA工具和JAVA基础的类库。</p><p>已知jdk的版本号很复杂，又已知jdk版本向下兼容，所以选择下载最新版。</p><p>下载并且安装完成了，正在配置环境变量的时候突然发现：<code>找不到jre文件</code>，上网一查发现：<code>新版的jdk没有jre，jdk本身就包含jre</code>，于是继续配置环境变量、配置验证。</p><h5 id="关于api文档"><a href="#关于api文档" class="headerlink" title="关于api文档"></a>关于api文档</h5><h6 id="概述（来源网络）："><a href="#概述（来源网络）：" class="headerlink" title="概述（来源网络）："></a>概述（来源网络）：</h6><p>API(Application Programming Interface),应用程序编程接口。Java API是一本程序员的”字典”，是JDK提供给我们使用的类的说明文档。这些类底层的代码实现封装了起来，我们不需要关心这些类是如何实现的，只需要学习这些类如何使用即可。所以我们可以通过查询API的方式，来学习Java提供的类，并得知如何使用它们。</p><h6 id="使用："><a href="#使用：" class="headerlink" title="使用："></a>使用：</h6><p>具体API查找步骤：</p><ol><li>打开参考⽂档（开始菜单中jdk目录下）</li><li>寻找或在输⼊框⾥输⼊。</li><li>看包。</li><li>看类的解释和说明。</li><li>学习构造⽅法。</li><li>使⽤成员⽅法</li></ol><h5 id="关于第一个程序hello-world："><a href="#关于第一个程序hello-world：" class="headerlink" title="关于第一个程序hello world："></a>关于第一个程序hello world：</h5><p>几经波折。</p><p>下载完成后激活失败，因为版本太老，已经不好找激活教程，差一点就想直接用最新的社区版，然后回看压缩包里的文件，发现自己漏了一个步骤，按要求操作后成功，并且顺带配置好了汉化包。</p><p>第一个程序hello world运行时报错，发现可能原因是jdk版本过高导致的。然后我重新安装了jkd1.8并配置环境变量，然后新建项目运行，成功！</p><h5 id="关于idea使用"><a href="#关于idea使用" class="headerlink" title="关于idea使用"></a>关于idea使用</h5><p>简单配置：主题、字体、文件编码</p><p>创建（和删除）project、package、class、module</p><p>查看项目配置</p><p>使用快捷键和代码模板</p><p>配置tomcat、maven、关联数据库</p><p>使用调试功能</p><p>生成javadoc、清理缓存和索引、插件使用</p><h5 id="在idea中使用git和GitHub"><a href="#在idea中使用git和GitHub" class="headerlink" title="在idea中使用git和GitHub"></a>在idea中使用git和GitHub</h5><p>配置忽略文件</p><p>定位git程序、登录GitHub账号</p><p>git：init、add、commit、checkout、brunch（new、checkout、merge&#x2F;rebase）。</p><p>GitHub：share、push、pull、clone</p><h5 id="运行一段Java程序"><a href="#运行一段Java程序" class="headerlink" title="运行一段Java程序"></a>运行一段Java程序</h5><p><del>(目前条件有限，正猫在一个地方码字，暂时先不把代码和运行截图po上来，明天再搞)</del></p><p>一些[关于merge和rebase的使用](<a href="https://zhuanlan.zhihu.com/p/75499871">git merge和git rebase的区别, 切记：永远用rebase - 知乎 (zhihu.com)</a>)</p>]]></content>
     
@@ -70,19 +84,27 @@
     
     
     
+    <category term="学习" scheme="https://xueziqyy.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="Java" scheme="http://example.com/tags/Java/"/>
+    <category term="后端" scheme="https://xueziqyy.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%90%8E%E7%AB%AF/"/>
     
-    <category term="IDEA" scheme="http://example.com/tags/IDEA/"/>
+    <category term="Java" scheme="https://xueziqyy.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%90%8E%E7%AB%AF/Java/"/>
+    
+    
+    <category term="Java" scheme="https://xueziqyy.github.io/tags/Java/"/>
+    
+    <category term="IDEA" scheme="https://xueziqyy.github.io/tags/IDEA/"/>
+    
+    <category term="工作室后端招新题" scheme="https://xueziqyy.github.io/tags/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%90%8E%E7%AB%AF%E6%8B%9B%E6%96%B0%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>Java历史和特性_C 语言实现面向对象_思考题3</title>
-    <link href="http://example.com/2022/03/30/Java%E5%8E%86%E5%8F%B2%E5%92%8C%E7%89%B9%E6%80%A7_C%20%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1_%E6%80%9D%E8%80%83%E9%A2%983/"/>
-    <id>http://example.com/2022/03/30/Java%E5%8E%86%E5%8F%B2%E5%92%8C%E7%89%B9%E6%80%A7_C%20%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1_%E6%80%9D%E8%80%83%E9%A2%983/</id>
+    <link href="https://xueziqyy.github.io/2022/03/30/Java%E5%8E%86%E5%8F%B2%E5%92%8C%E7%89%B9%E6%80%A7_C%20%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1_%E6%80%9D%E8%80%83%E9%A2%983/"/>
+    <id>https://xueziqyy.github.io/2022/03/30/Java%E5%8E%86%E5%8F%B2%E5%92%8C%E7%89%B9%E6%80%A7_C%20%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1_%E6%80%9D%E8%80%83%E9%A2%983/</id>
     <published>2022-03-30T15:20:38.000Z</published>
-    <updated>2022-03-30T15:38:49.554Z</updated>
+    <updated>2022-03-30T23:58:46.083Z</updated>
     
     <content type="html"><![CDATA[<h2 id="了解-JAVA-的历史和-JAVA-的特性，C-语言能够实现面向对象吗？"><a href="#了解-JAVA-的历史和-JAVA-的特性，C-语言能够实现面向对象吗？" class="headerlink" title="了解 JAVA 的历史和 JAVA 的特性，C 语言能够实现面向对象吗？"></a>了解 JAVA 的历史和 JAVA 的特性，C 语言能够实现面向对象吗？</h2><span id="more"></span><h3 id="（1）Java语言的发展轨迹"><a href="#（1）Java语言的发展轨迹" class="headerlink" title="（1）Java语言的发展轨迹"></a>（1）Java语言的发展轨迹</h3><blockquote><p>Java语言由Sun公司的詹姆斯高斯林等人于1990年代初开发Java语言的雏形，最初被命名为Oak。Java随着互联网技术的应用得到了快速发展，逐渐成为重要的网络编程语言。</p><p>Java语言诞生于1994年，但可以溯源到1991年。1991年，在Sun公司工作的詹姆斯受命组织团队开发一个叫Oak的项目，目标设定在家用电器等小型系統的编程语言，來解决诸如电视机、电话、闹钟、烤面包机等家用电器的控制和通讯问题，由于这些智能化家电的市场需求没有预期的高，Sun公司放弃了该项计划。就在Oak几近失败之时。在1994年詹姆斯高斯林等人决定将该技术应用于互联网，将该语言改造为网络编程语言，这个语言就是Java语言的前身。</p><p>语言改造后，OaK语言在互联网上得到很大的应用和发展，从一个默默无闻的小人物，突然变成了一个家喻户晓的大人物，而这时，发生了一件事情，促使詹姆斯对OaK语言改名。原来OaK名称已被一家显卡制造商注册，Oak这个名字不能再用了，詹姆斯于是在1995年将OaK更名为Java。</p><p>1996年是Java语言里程碑的一年，在这一年，Java开发人员熟悉的JDK 1.0发布了，Java语言有了第一个正式版本的运行环境。JDK 1.0版本包括Java虚拟机、网页应用小程序，可以嵌套在网页中运行，用户界面组件，通过用户界面组件可以开发窗口应用程序。</p><p>1998年，对Java语言来说，又是一个里程碑。Java正式发布了J2SE 1.2，在这个版本中，Java技术体系拆分为3个方向，分别是面向桌面应用开发的J2SE、面向企业级开发的J2EE和面向手机等移动终端开发的J2ME。</p><p>2006年，对java来说，发生了两件大事。第一件大事是Sun公司宣布将Java代码开源，代码开源意味者Java开发者可以查看Java核心代码，了解JDK核心架构。第二件大事终结了从JDK 1.2开始已经有8年历史的J2EE、J2SE、J2ME的命名方式，启用Java SE 6、Java EE 6、Java ME 6的命名方式。</p><p>2017年，Orcle公司正式发布了Java SE9版，为什么是Orcale公司，而不是Sun公司呢，因为Sun公司在2009年被Orcale以74亿美元的价格收购了。</p></blockquote><h3 id="（2）Java语言的特点"><a href="#（2）Java语言的特点" class="headerlink" title="（2）Java语言的特点"></a>（2）Java语言的特点</h3><blockquote><p>（1）平台无关性</p><p>Java语言的一个显著特点就是平台的无关性，即Java是可以跨平台的编程语言。要理解平台无关性的特点，首先要知道什么是平台，打开电脑我们用Windows系统，打开手机我们用安卓系统、再高深一点的大型网站用到的Linux系统，这些系统都是平台。平台无关性的意思就是用Java语言写的程序可以在任何平台上运行，如windows系统、安卓系统、Linux系统上运行。</p><p>我们用记事本、Eclipse等工具写好Java程序后，使用Java编译器将写好的Java代码文件编译成中间文件，中间文件的扩展名是class，当我们需要class文件在Windows系统上运行时，还得需要在Windows系统上安装一个Java虚拟机，由Java虚拟机解释class文件，并翻译成Windows运行代码。同样，如果我们需要class文件在Linux系统上运行，就需要在Linux系统上安装Java虚拟机,由Java虚拟机解释class文件，并翻译成Linux运行代码。在其它系统上也是如此。</p><p>（2）面向对象</p><p>Java是面向对象的语言，什么是面向对象呢？面向对象主要是针对面向过程开发来说的。</p><p>假如我们要开发一个学生管理系统，用面向过程来开发的话，可能会考虑该系统主要有哪些功能以及数据，功能可能包括学生信息、查询成绩、安排课程等；数据可能包括学生信息、课程信息，并通过数组、链表等数据结构来存储和组织这些数据。功能和数据确定后，通过编写函数实现功能并操作数据，其函数和数据是分离的。当系统的数据改变时，如在学生信息中增加学生的家庭信息，面向过程开发的麻烦就来了，得需要修改大量代码以适应数据的改变。</p><p>用面向对象来开发的话，可以把对象想象成现实世界中的事物，如人、动物、楼房、树木等。事物有属性和行为，例如人有姓名、年龄、性别等属性，也有跑步、骑自行车、吃饭等行为。如果要编写一个关于人的系统，可以把人的属性和行为看作一个整体并封装为一个Java类，这就是面向对象开发的概念。</p><p>用对象来考虑学生管理系统，自然会考虑到该系统由老师、学生、课程等对象组成。老师有姓名、专业、授课课程、所教班级、上课时间等属性，也有上课、查询和录入学生信息等行为；学生有学号、姓名、出生年月、所在班级等属性，也有查询成绩、查询课程等行为；课程有课程名称、课程编号、授课老师等属性，也有课程安排等行为。</p><p>面向对象把数据（对象属性）和功能（行为）封装到一个对象中，所有对数据（对象属性）的操作都封装在对象中，较好实现了数据封闭型原则。当数据（对象属性）改变时，不会影响到其它代码，易于系统的扩展和维护。而且，面向对象更接近于人的思维。</p><p>（3）内存的自动管理</p><p>学过C语言开发的人，对内存的管理都很头痛。用Java语言可以不用考虑内存了。在生活中，我们希望有个袋子可以无限地装东西。在Java编程中，可以把内存看成袋子，不用担心袋子装不下东西，不用整理袋子，Java会自动整理，大大提高了我们的编程效率。</p></blockquote><h3 id="（3）C语言能实现面向对象"><a href="#（3）C语言能实现面向对象" class="headerlink" title="（3）C语言能实现面向对象"></a>（3）C语言能实现面向对象</h3><h4 id="我的直接想法："><a href="#我的直接想法：" class="headerlink" title="我的直接想法："></a>我的直接想法：</h4><p>c++最初就是用C语言实现的，所有c++代码都可以翻译成c的代码。</p><h4 id="面向对象的主要特征："><a href="#面向对象的主要特征：" class="headerlink" title="面向对象的主要特征："></a>面向对象的主要特征：</h4><h5 id="封装"><a href="#封装" class="headerlink" title="封装"></a><strong>封装</strong></h5><p>把描述一个对象的属性和行为的代码封装在一个“模块”（class）中，属性用成员变量定义，行为用方法（成员函数）定义，方法可以直接访问属于该类的对象中的属性。</p><p>将类中的成员变量定义为私有的，只有这个类的方法才可以访问到这些成员变量（通过接口访问），这就基本上实现对象的封装。</p><p>目标：实现软件内部的“高内聚、低耦合”。</p><p>原则：把方法和它操作的数据放在同一个类中。</p><h5 id="继承"><a href="#继承" class="headerlink" title="继承"></a><strong>继承</strong></h5><p>在一个已经存在的类的基础上定义和实现一个类，新声明的类是已存在类的超集，可以加入新的成员变量，或修改原来的方法使之更适合特殊的需要（virtual）。</p><p>继承是类之间的一种关系，提高了软件的可重用性和可扩展性。</p><h5 id="抽象"><a href="#抽象" class="headerlink" title="抽象"></a><strong>抽象</strong></h5><p>找出事物的共性，将有共性事物归为一类，这个类只考虑事物的相似和共性之处，忽略与当前主题和目标无关的方面。（c++中的class）</p><h5 id="多态"><a href="#多态" class="headerlink" title="多态"></a><strong>多态</strong></h5><p><strong>即不同类的对象收到相同的消息可能导致完全不同的行为和结果。</strong>放在程序设计语言中，即是：不同的类的对象作为形参传入同一函数时，导致不同的行为。多态性包含编译时的多态性（静态多态性）、运行时的多态性（动态多态性）两大类。</p><p><strong>静态多态性</strong>是指定义在一个类或一个函数中的同名函数，它们根据参数表（类型以及个数）区别语义，并通过静态联编实现，即<strong>函数重载overload</strong>。例如，在一个类中定义的不同参数的构造函数。</p><p><strong>动态多态性</strong>是指定义在一个类层次的不同类中的重载函数（即，继承自同一个基类的类中），它们一般具有相同的函数，因此要根据指针指向的对象所在类来区别语义，它通过动态联编实现，即<strong>函数重写override</strong>。</p><p>在用户不作任何干预的环境下类的成员函数的行为能根据调用它的对象类型自动作出适应性调整，而且调整是发生在程序运行时，这就是程序的动态多态性。</p><p><strong>C++的多态性</strong>：在基类的函数前面加上Virtual关键字，在派生类中重写该函数，运行时将会根据对象的实际类型来调用相应的函数。如果对象类型是派生类，就调用派生类的函数；如果对象类型是基类，就调用基类的函数。</p><h4 id="具体实现："><a href="#具体实现：" class="headerlink" title="具体实现："></a>具体实现：</h4><h5 id="抽象："><a href="#抽象：" class="headerlink" title="抽象："></a>抽象：</h5><p>类的思想通过struct实现，在struct里声明成员变量。（其实c++中struct也可以声明”类”，不同在于，struct中的成员变量默认为public，class中默认为private）</p><p>成员函数（方法）通过函数指针来实现，并且通过一个指向该结构的指针来实现成员函数的调用、实现通过成员函数访问成员变量（c++中每个类的对象都有一个隐含的指针this）。</p><h5 id="封装："><a href="#封装：" class="headerlink" title="封装："></a>封装：</h5><p>对于怎么把struct封装起来，我一时没有太多想法，查阅网络资料，大家一般想法是通过struct和union实现。</p><p><a href="%5B(16%E6%9D%A1%E6%B6%88%E6%81%AF">具体实现</a> C语言之结构体实现共有、私有的思考(参考strongswan代码)_喝醉的鱼的博客-CSDN博客_struct 私有](<a href="https://blog.csdn.net/u012895183/article/details/81544227?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&amp;utm_relevant_index=2))%E3%80%82">https://blog.csdn.net/u012895183/article/details/81544227?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&amp;utm_relevant_index=2))。</a></p><h5 id="继承："><a href="#继承：" class="headerlink" title="继承："></a>继承：</h5><p>继承是类之间的一种关系，目的是提高软件的可重用性和可扩展性。</p><p>而我们知道，重用和扩展不一定需要通过继承实现，还可以通过组合实现。</p><p>但是，组合”A中包含了B”，继承”A是一个更为特殊的B”，有差异。</p><p><a href="%5B(16%E6%9D%A1%E6%B6%88%E6%81%AF">这里也先引用一下前人的思考，我实在是困了</a> C++ 继承底层原理总结_庭树的博客-CSDN博客_c++继承原理](<a href="https://blog.csdn.net/weixin_36725931/article/details/85481857">https://blog.csdn.net/weixin_36725931/article/details/85481857</a>))</p><h5 id="多态性："><a href="#多态性：" class="headerlink" title="多态性："></a>多态性：</h5><p>C++中的多态是通过父类的指针或引用，调用了一个在父类中是virtual类型的函数，实现动态绑定机制。若想使用父类的指针&#x2F;引用调用子类的函数，需要在父类中将其声明为虚函数（virtual）。</p><p>C语言实现多态性可效仿c++的机制，在每个有virtual函数的类的对象的成员变量之前隐式创造一个指向一张函数表的指针（函数表，即依次存储若干成员函数的函数地址，子类函数表的顺序与父类完全相同，其中虚函数地址被替换为新的函数地址）。若父类的成员函数存在虚函数，则对象通过指针或引用调用成员函数时，先访问该函数表，按照函数表找到真正要调用的函数。</p>]]></content>
     
@@ -91,21 +113,27 @@
     
     
     
+    <category term="学习" scheme="https://xueziqyy.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="Java" scheme="http://example.com/tags/Java/"/>
+    <category term="后端" scheme="https://xueziqyy.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%90%8E%E7%AB%AF/"/>
     
-    <category term="工作室后端招新" scheme="http://example.com/tags/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%90%8E%E7%AB%AF%E6%8B%9B%E6%96%B0/"/>
+    <category term="Java" scheme="https://xueziqyy.github.io/categories/%E5%AD%A6%E4%B9%A0/%E5%90%8E%E7%AB%AF/Java/"/>
     
-    <category term="C语言" scheme="http://example.com/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="Java" scheme="https://xueziqyy.github.io/tags/Java/"/>
+    
+    <category term="工作室后端招新题" scheme="https://xueziqyy.github.io/tags/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%90%8E%E7%AB%AF%E6%8B%9B%E6%96%B0%E9%A2%98/"/>
+    
+    <category term="C语言" scheme="https://xueziqyy.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
     
   </entry>
   
   <entry>
     <title>论我在用hexo搭建博客过程中经历了什么</title>
-    <link href="http://example.com/2022/03/18/%E8%AE%BA%E6%88%91%E5%9C%A8%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%BB%8F%E5%8E%86%E4%BA%86%E4%BB%80%E4%B9%88/"/>
-    <id>http://example.com/2022/03/18/%E8%AE%BA%E6%88%91%E5%9C%A8%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%BB%8F%E5%8E%86%E4%BA%86%E4%BB%80%E4%B9%88/</id>
+    <link href="https://xueziqyy.github.io/2022/03/18/%E8%AE%BA%E6%88%91%E5%9C%A8%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%BB%8F%E5%8E%86%E4%BA%86%E4%BB%80%E4%B9%88/"/>
+    <id>https://xueziqyy.github.io/2022/03/18/%E8%AE%BA%E6%88%91%E5%9C%A8%E7%94%A8hexo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%BB%8F%E5%8E%86%E4%BA%86%E4%BB%80%E4%B9%88/</id>
     <published>2022-03-18T13:01:23.000Z</published>
-    <updated>2022-03-21T00:27:41.604Z</updated>
+    <updated>2022-03-30T23:53:32.874Z</updated>
     
     <content type="html"><![CDATA[<p>对于一个小白来说，搭建个人博客真的是一件很酷的事儿！！！</p><span id="more"></span><h5 id="在一切开始之前："><a href="#在一切开始之前：" class="headerlink" title="在一切开始之前："></a>在一切开始之前：</h5><p>我大概了解markdown文件的作用机制，且已经掌握git和github的基本用法，于此同时，我对搭建个人博客的难度几乎毫无认识。</p><h5 id="开始干活："><a href="#开始干活：" class="headerlink" title="开始干活："></a>开始干活：</h5><p><strong>搜索了</strong><code>hexo</code>，了解到：</p><p>Hexo是一个基于Node.js，快速、简洁且高效的博客框架。</p><p>Hexo使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p><p>搭配github pages可以实现实现不用购买服务器的情况下搭建个人博客。</p><p>没有后端，只能本地写然后推送，换电脑要重新配置nodejs，还要把之前电脑上的文件拷贝到新电脑上，不然网站中之前的博客会被覆盖。</p><p><strong>安装node.js</strong></p><p>（在这一步因为校园网太拉跨了，27M的软件下了整整40分钟，我甚至忘了可以开热点）</p><p><strong>安装hexo</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure><p><strong>生成博客</strong></p><p>在D盘创建xueziqyy_blog文件夹，打开git bash。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo install</span><br></pre></td></tr></table></figure><p><strong>本地测试</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure><p>此时遇到了第一个问题：localhost:4000不能访问。</p><p>原因：电脑端口被占用了。hexo默认的端口是4000，我的电脑安装了福昕阅读器，把这个端口占了。</p><p>解决：<code> hexo s -p 5000</code>，换端口5000。</p><p><strong>更换主题</strong></p><p>选择了使用人数多的<code>NexT</code>，简洁，而且使用人数多，遇到问题也不怕。（同时也下载了花里胡哨的<code>butterfly</code>）</p><p><strong>部署到GitHub</strong></p><p>突然想起，我之前刚注册GitHub时就已经迷迷糊糊地尝试过搭建博客了，之后就忘了这事儿，这次直接部署到了另一个分支master上，并把master改为默认分支。</p><p>此时遇到了第二个问题：因为安全原因，GitHub不再支持使用密码push，git repo配置地址出问题。</p><p><code>err: Error: Spawn failed</code></p><p>解决：将http方式变更为ssh方式。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">##进入站点根目录</span><br><span class="line">cd /usr/local/src/hexo/hanyubolg/</span><br><span class="line"></span><br><span class="line">##删除git提交内容文件夹</span><br><span class="line"></span><br><span class="line">vim _config.yml</span><br><span class="line"></span><br><span class="line">##修改</span><br><span class="line"></span><br><span class="line">deploy:</span><br><span class="line"></span><br><span class="line">type: git</span><br><span class="line"></span><br><span class="line">repo: https://github.com/yourname/yourname.github.io.git -&gt; git@github.com:XXXXXX.github.io.git</span><br><span class="line"></span><br><span class="line">branch: master</span><br><span class="line"></span><br><span class="line">##最后</span><br><span class="line"></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure><p><strong>生成第一个post文档</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;hello&quot;</span><br></pre></td></tr></table></figure><p>没有指定layout，默认为post，查阅资料后，把post全部移入draft文件夹，于是出现第三个问题：运行hexo s后出现Cannot GET&#x2F;错误。</p><p>解决：在路径\source_posts\中至少需要存放一篇文档，否则会出现Cannot GET&#x2F;错误。</p><p><strong>添加关于、标签、分类、归档、搜索</strong></p><p>尝试添加后，网页并不能正常连接，出现第四个错误”Cannot GET &#x2F;%20“。</p><p>解决：原因是主题的配置文件_config.yml格式错误，更改_config.yml 中的menu配置：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: / || home</span><br><span class="line">  about: /about/ || user</span><br><span class="line">  tags: /tags/ || tags</span><br><span class="line">  categories: /categories/ || th</span><br><span class="line">  archives: /archives/ || archive</span><br><span class="line">  #schedule: /schedule/ || calendar</span><br><span class="line">  #sitemap: /sitemap.xml || sitemap</span><br><span class="line">  #commonweal: /404/ || heartbeat</span><br></pre></td></tr></table></figure><p>可以看到每个结尾&#x2F;后面都有空格，而空格在链接中就显示为了%20，这就是错误的原因，将&#x2F;后的空格删除则可以正确连接</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: /|| home</span><br></pre></td></tr></table></figure><p>点击标签等页面不会报错了，但是出现第五个问题：点击标签之后并不显示标签页面。</p><p>解决：在home、categories、archives、tags、about的等文件的index文件的front-matter中添加type: xxx，测试，运行正常。</p><p><del><strong>rss</strong></del></p><p>这个我没太懂，最后没弄了，之后有需要再说。</p><p><strong><del>添加sitemap</del></strong></p><p>这个也还没弄。</p><p><strong>添加头像</strong></p><p><strong>插入图片</strong></p><p>最先尝试使用绝对路径本地引用，失败。</p><p>然后改为相对路径本地引用：</p><p>将_config.yml文件中的配置项post_asset_folder设为true后，执行命令$ hexo new post_name，在source&#x2F;_posts中会生成文章post_name.md和同名文件夹post_name。将图片资源放在post_name中，文章就可以使用相对路径引用图片资源了。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![](image.jpg)</span><br></pre></td></tr></table></figure><p>我用这个办法尝试在about页插入了一张在图片，成功。</p><p><strong>增加社交链接</strong></p><p><strong>添加favicon</strong></p><p>在一个提供免费图标网站选了一个和我很有缘分的的月亮图标的png文件，在线把它转换为.ico，但是最后还是使用的.png格式。</p><p>——tbc</p><p><a href="https://hexo.io/zh-cn/docs/writing">Hexo官方教程</a></p><h5 id="typora常用快捷键和语法"><a href="#typora常用快捷键和语法" class="headerlink" title="typora常用快捷键和语法"></a>typora常用快捷键和语法</h5><p>标题：Ctrl+1、2、3…对应一、二、三…级标题（光标定位到需要设置为标题的行，按快捷键）</p><p><strong>加粗</strong>：Ctrl+B（选中要加粗的文本，按快捷键）</p><p><em>斜体</em>：Ctrl+I（选中要设置斜体的文本，按快捷键）</p><p><u>下划线</u>：Ctrl+U（选中要加下划线的文本，按快捷键）</p><p><del>删除线</del>：Alt+Shift+5（选中要加删除线的文本，按快捷键）</p><p><code>代码片段</code>：Ctrl+Shift+&#96;（选中要设置为代码片段的文本，按快捷键）</p><p>代码块：Ctrl+Shift+K（任意位置按快捷键，选择编程语言然后在代码块中输入代码）</p><p>切换到下一行：Ctrl+Enter（任意位置按快捷键，在代码块中可以跳出代码块另起一行）</p><p>链接：Ctrl+K（先复制链接，然后选中要加链接的文本，按快捷键。Ctrl+左键点击文本可跳转到对应链接）</p><p>取消格式：再次按相同的快捷键即可</p><p>有序列表：数字+点+空格</p><p>任务列表：加号或减号+空格</p><p>切换到列表下一行：Space+Enter</p><p>嵌套列表：按Tab键</p><p>退出列表：按 Shift+Tab</p><p>插入表格：Ctrl+T</p><p>引用：输入&gt;后面加空格，或者Ctrl+Shift+Q</p>]]></content>
     
@@ -114,57 +142,57 @@
     
     
     
-    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="https://xueziqyy.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="工作室后端招新题" scheme="http://example.com/tags/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%90%8E%E7%AB%AF%E6%8B%9B%E6%96%B0%E9%A2%98/"/>
+    <category term="工作室后端招新题" scheme="https://xueziqyy.github.io/tags/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%90%8E%E7%AB%AF%E6%8B%9B%E6%96%B0%E9%A2%98/"/>
     
-    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    <category term="hexo" scheme="https://xueziqyy.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>农作物供需问题</title>
-    <link href="http://example.com/2022/03/18/%E5%86%9C%E4%BD%9C%E7%89%A9%E4%BE%9B%E9%9C%80%E9%97%AE%E9%A2%98/"/>
-    <id>http://example.com/2022/03/18/%E5%86%9C%E4%BD%9C%E7%89%A9%E4%BE%9B%E9%9C%80%E9%97%AE%E9%A2%98/</id>
+    <link href="https://xueziqyy.github.io/2022/03/18/%E5%86%9C%E4%BD%9C%E7%89%A9%E4%BE%9B%E9%9C%80%E9%97%AE%E9%A2%98/"/>
+    <id>https://xueziqyy.github.io/2022/03/18/%E5%86%9C%E4%BD%9C%E7%89%A9%E4%BE%9B%E9%9C%80%E9%97%AE%E9%A2%98/</id>
     <published>2022-03-18T11:56:17.000Z</published>
-    <updated>2022-03-19T05:22:01.553Z</updated>
+    <updated>2022-03-30T23:53:31.857Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="题目："><a href="#题目：" class="headerlink" title="题目："></a>题目：</h5><p>农民伯伯种菜非常辛苦，一种蔬菜一年可能一次收成或者两次收成，可是人们天天都要吃饭，但是人对食物的需求是<strong>低量长期</strong>的，而作物的收获是<strong>大量但缓慢</strong>的。聪明的你想到<strong>哪几种</strong>方法来解决这个问题呢？ </p><p><strong>提交要求：在博客写下你的思考</strong></p><span id="more"></span><h5 id="我的思考："><a href="#我的思考：" class="headerlink" title="我的思考："></a>我的思考：</h5><h6 id="对于问题本身："><a href="#对于问题本身：" class="headerlink" title="对于问题本身："></a>对于问题本身：</h6><ol><li>恰当的储存、保鲜技术。（特别适用于生鲜类农产品）</li><li>大棚种植、室内种植、调节外界条件控制作物的持续少量成熟，持续供给市场。（适用于蔬菜水果）</li><li>食品加工，提高盈利的同时解决农作物供需的时间性难题。</li><li>品牌意识，做好营销，农产品成熟供给全国。大部分农作物有地域特点，适当的网络营销使当一个地区的一种作物集中成熟时不至于滞销。</li><li>食品工业化，将自然生长成熟的植物、动物制成营养粉、营养膏、营养液。</li><li>广泛种植不同种类、不同时期成熟的作物，保证一年四季的蔬菜食物供给。</li></ol><h6 id="继续思考："><a href="#继续思考：" class="headerlink" title="继续思考："></a>继续思考：</h6><p>除了农作物，还有什么存在“供需的时间性问题”？</p><ol><li>电力、水资源、矿产资源存在供需区域性难题，同时，用电存在高峰和低谷期。</li><li>水力发电存在时间性和区域性两大问题。</li></ol><p>对于资源的区域性问题，我国使用“西气东输”、“西电东送”、“南水北调”等政策人为调控。</p><p>对于电力、水电的时间性、季节性问题，我国水电站一般为抽水蓄能电站，利用电力负荷低谷时的电能抽水至上水库，在电力负荷高峰期再放水至下水库发电的水电站，将电网负荷低时的多余电能，转变为电网高峰时期的高价值电能。</p>]]></content>
+    <content type="html"><![CDATA[<p>农民伯伯种菜非常辛苦，一种蔬菜一年可能一次收成或者两次收成，可是人们天天都要吃饭，但是人对食物的需求是<strong>低量长期</strong>的，而作物的收获是<strong>大量但缓慢</strong>的。聪明的你想到<strong>哪几种</strong>方法来解决这个问题呢？ </p><p><strong>提交要求：在博客写下你的思考</strong></p><span id="more"></span><h5 id="我的思考："><a href="#我的思考：" class="headerlink" title="我的思考："></a>我的思考：</h5><h6 id="对于问题本身："><a href="#对于问题本身：" class="headerlink" title="对于问题本身："></a>对于问题本身：</h6><ol><li>恰当的储存、保鲜技术。（特别适用于生鲜类农产品）</li><li>大棚种植、室内种植、调节外界条件控制作物的持续少量成熟，持续供给市场。（适用于蔬菜水果）</li><li>食品加工，提高盈利的同时解决农作物供需的时间性难题。</li><li>品牌意识，做好营销，农产品成熟供给全国。大部分农作物有地域特点，适当的网络营销使当一个地区的一种作物集中成熟时不至于滞销。</li><li>食品工业化，将自然生长成熟的植物、动物制成营养粉、营养膏、营养液。</li><li>广泛种植不同种类、不同时期成熟的作物，保证一年四季的蔬菜食物供给。</li></ol><h6 id="继续思考："><a href="#继续思考：" class="headerlink" title="继续思考："></a>继续思考：</h6><p>除了农作物，还有什么存在“供需的时间性问题”？</p><ol><li>电力、水资源、矿产资源存在供需区域性难题，同时，用电存在高峰和低谷期。</li><li>水力发电存在时间性和区域性两大问题。</li></ol><p>对于资源的区域性问题，我国使用“西气东输”、“西电东送”、“南水北调”等政策人为调控。</p><p>对于电力、水电的时间性、季节性问题，我国水电站一般为抽水蓄能电站，利用电力负荷低谷时的电能抽水至上水库，在电力负荷高峰期再放水至下水库发电的水电站，将电网负荷低时的多余电能，转变为电网高峰时期的高价值电能。</p>]]></content>
     
     
-    <summary type="html">&lt;h5 id=&quot;题目：&quot;&gt;&lt;a href=&quot;#题目：&quot; class=&quot;headerlink&quot; title=&quot;题目：&quot;&gt;&lt;/a&gt;题目：&lt;/h5&gt;&lt;p&gt;农民伯伯种菜非常辛苦，一种蔬菜一年可能一次收成或者两次收成，可是人们天天都要吃饭，但是人对食物的需求是&lt;strong&gt;低量长期&lt;/strong&gt;的，而作物的收获是&lt;strong&gt;大量但缓慢&lt;/strong&gt;的。聪明的你想到&lt;strong&gt;哪几种&lt;/strong&gt;方法来解决这个问题呢？ &lt;/p&gt;
+    <summary type="html">&lt;p&gt;农民伯伯种菜非常辛苦，一种蔬菜一年可能一次收成或者两次收成，可是人们天天都要吃饭，但是人对食物的需求是&lt;strong&gt;低量长期&lt;/strong&gt;的，而作物的收获是&lt;strong&gt;大量但缓慢&lt;/strong&gt;的。聪明的你想到&lt;strong&gt;哪几种&lt;/strong&gt;方法来解决这个问题呢？ &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;提交要求：在博客写下你的思考&lt;/strong&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="https://xueziqyy.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="工作室后端招新题" scheme="http://example.com/tags/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%90%8E%E7%AB%AF%E6%8B%9B%E6%96%B0%E9%A2%98/"/>
+    <category term="工作室后端招新题" scheme="https://xueziqyy.github.io/tags/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%90%8E%E7%AB%AF%E6%8B%9B%E6%96%B0%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>分苹果问题</title>
-    <link href="http://example.com/2022/03/18/%E5%88%86%E8%8B%B9%E6%9E%9C%E9%97%AE%E9%A2%98/"/>
-    <id>http://example.com/2022/03/18/%E5%88%86%E8%8B%B9%E6%9E%9C%E9%97%AE%E9%A2%98/</id>
+    <link href="https://xueziqyy.github.io/2022/03/18/%E5%88%86%E8%8B%B9%E6%9E%9C%E9%97%AE%E9%A2%98/"/>
+    <id>https://xueziqyy.github.io/2022/03/18/%E5%88%86%E8%8B%B9%E6%9E%9C%E9%97%AE%E9%A2%98/</id>
     <published>2022-03-18T05:25:19.000Z</published>
-    <updated>2022-03-19T03:57:38.854Z</updated>
+    <updated>2022-03-30T23:53:31.092Z</updated>
     
-    <content type="html"><![CDATA[<h5 id="题目："><a href="#题目：" class="headerlink" title="题目："></a>题目：</h5><p>现在有 1023 个苹果，请你把它分成 10 堆，<strong>请给出一种分法，满足要求</strong>：当需要取得 0～1023 中任意数目的苹果时，必须直接从这 10 堆苹果中直接取出几堆，使得取出几堆苹果的总数刚好满足要求。 </p><p>例如：分为 9 堆（100 个）和 1 堆（123 个），现在需要 223 个苹果，则可以直接取两堆（100+123）。 </p><p><strong>提交要求：在博客写下你的思考</strong> </p><span id="more"></span><h5 id="我的思维路径："><a href="#我的思维路径：" class="headerlink" title="我的思维路径："></a>我的思维路径：</h5><ol start="0"><li><del>第一反应：10和0到1023，数值很巧妙嘛。看完题后：任意数目？这怎么可能？</del></li><li>设十堆苹果从第一堆到第十堆数目依次增加。</li><li>任意个数都需能找出，所以第一堆苹果必为1个。</li><li>同理第二堆必为2个，第三堆必为4个，第四堆必为8个，这样从0到15都可以通过前四堆凑出来，所以第五堆必为16个。</li><li>这数据太眼熟来，搞定！合理推测：10堆苹果分别为：2^0 , 2^1 , 2^2 , 2^3 , 2^4 , 2^5 , 2^6 , 2^7 , 2^8 , 2^9 .</li><li>继续思考：十个数可以看成十个bit(位)：1111111111，十个bit(位)上各自选0&#x2F;1可以组合出0(0000000000)到1023(1111111111)，所以二进制的0000000001,0000000010,0000000100,…,1000000000（即十进制的1,2,4,…,512）为所求。</li></ol>]]></content>
+    <content type="html"><![CDATA[<p>现在有 1023 个苹果，请你把它分成 10 堆，<strong>请给出一种分法，满足要求</strong>：当需要取得 0～1023 中任意数目的苹果时，必须直接从这 10 堆苹果中直接取出几堆，使得取出几堆苹果的总数刚好满足要求。 </p><p>例如：分为 9 堆（100 个）和 1 堆（123 个），现在需要 223 个苹果，则可以直接取两堆（100+123）。 </p><p><strong>提交要求：在博客写下你的思考</strong> </p><span id="more"></span><h5 id="我的思维路径："><a href="#我的思维路径：" class="headerlink" title="我的思维路径："></a>我的思维路径：</h5><ol start="0"><li><del>第一反应：10和0到1023，数值很巧妙嘛。看完题后：任意数目？这怎么可能？</del></li><li>设十堆苹果从第一堆到第十堆数目依次增加。</li><li>任意个数都需能找出，所以第一堆苹果必为1个。</li><li>同理第二堆必为2个，第三堆必为4个，第四堆必为8个，这样从0到15都可以通过前四堆凑出来，所以第五堆必为16个。</li><li>这数据太眼熟来，搞定！合理推测：10堆苹果分别为：2^0 , 2^1 , 2^2 , 2^3 , 2^4 , 2^5 , 2^6 , 2^7 , 2^8 , 2^9 .</li><li>继续思考：十个数可以看成十个bit(位)：1111111111，十个bit(位)上各自选0&#x2F;1可以组合出0(0000000000)到1023(1111111111)，所以二进制的0000000001,0000000010,0000000100,…,1000000000（即十进制的1,2,4,…,512）为所求。</li></ol>]]></content>
     
     
-    <summary type="html">&lt;h5 id=&quot;题目：&quot;&gt;&lt;a href=&quot;#题目：&quot; class=&quot;headerlink&quot; title=&quot;题目：&quot;&gt;&lt;/a&gt;题目：&lt;/h5&gt;&lt;p&gt;现在有 1023 个苹果，请你把它分成 10 堆，&lt;strong&gt;请给出一种分法，满足要求&lt;/strong&gt;：当需要取得 0～1023 中任意数目的苹果时，必须直接从这 10 堆苹果中直接取出几堆，使得取出几堆苹果的总数刚好满足要求。 &lt;/p&gt;
+    <summary type="html">&lt;p&gt;现在有 1023 个苹果，请你把它分成 10 堆，&lt;strong&gt;请给出一种分法，满足要求&lt;/strong&gt;：当需要取得 0～1023 中任意数目的苹果时，必须直接从这 10 堆苹果中直接取出几堆，使得取出几堆苹果的总数刚好满足要求。 &lt;/p&gt;
 &lt;p&gt;例如：分为 9 堆（100 个）和 1 堆（123 个），现在需要 223 个苹果，则可以直接取两堆（100+123）。 &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;提交要求：在博客写下你的思考&lt;/strong&gt; &lt;/p&gt;</summary>
     
     
     
-    <category term="学习" scheme="http://example.com/categories/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="https://xueziqyy.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="工作室后端招新题" scheme="http://example.com/tags/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%90%8E%E7%AB%AF%E6%8B%9B%E6%96%B0%E9%A2%98/"/>
+    <category term="工作室后端招新题" scheme="https://xueziqyy.github.io/tags/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%90%8E%E7%AB%AF%E6%8B%9B%E6%96%B0%E9%A2%98/"/>
     
   </entry>
   
