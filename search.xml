@@ -112,6 +112,9 @@
 <p>这个我没太懂，最后没弄了，之后有需要再说。</p>
 <p><strong><del>添加sitemap</del></strong></p>
 <p>这个也还没弄。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
+
+<p>然后还没到Google或百度对应的站长工具进行提交<code>sitemap</code>。</p>
 <p><strong>添加头像</strong></p>
 <p><strong>插入图片</strong></p>
 <p>最先尝试使用绝对路径本地引用，失败。</p>
@@ -186,8 +189,8 @@
         <category>Java</category>
       </categories>
       <tags>
-        <tag>Java</tag>
         <tag>工作室后端招新题</tag>
+        <tag>Java</tag>
       </tags>
   </entry>
   <entry>
@@ -258,9 +261,9 @@
         <category>Java</category>
       </categories>
       <tags>
+        <tag>工作室后端招新题</tag>
         <tag>Java</tag>
         <tag>IDEA</tag>
-        <tag>工作室后端招新题</tag>
       </tags>
   </entry>
   <entry>
@@ -320,8 +323,8 @@
         <category>Java</category>
       </categories>
       <tags>
-        <tag>Java</tag>
         <tag>工作室后端招新题</tag>
+        <tag>Java</tag>
         <tag>C语言</tag>
       </tags>
   </entry>
