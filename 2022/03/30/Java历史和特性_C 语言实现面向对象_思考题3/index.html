@@ -66,7 +66,7 @@
 
 
 
-  <meta name="keywords" content="工作室后端招新题,Java,C语言," />
+  <meta name="keywords" content="Java,工作室后端招新题,C语言," />
 
 
 
@@ -85,10 +85,10 @@
 <meta property="og:description" content="了解 JAVA 的历史和 JAVA 的特性，C 语言能够实现面向对象吗？">
 <meta property="og:locale">
 <meta property="article:published_time" content="2022-03-30T15:20:38.000Z">
-<meta property="article:modified_time" content="2022-03-30T23:58:46.083Z">
+<meta property="article:modified_time" content="2022-04-03T13:51:19.616Z">
 <meta property="article:author" content="xueziqyy">
-<meta property="article:tag" content="工作室后端招新题">
 <meta property="article:tag" content="Java">
+<meta property="article:tag" content="工作室后端招新题">
 <meta property="article:tag" content="C语言">
 <meta name="twitter:card" content="summary">
 
@@ -412,6 +412,8 @@
       
         <h2 id="了解-JAVA-的历史和-JAVA-的特性，C-语言能够实现面向对象吗？"><a href="#了解-JAVA-的历史和-JAVA-的特性，C-语言能够实现面向对象吗？" class="headerlink" title="了解 JAVA 的历史和 JAVA 的特性，C 语言能够实现面向对象吗？"></a>了解 JAVA 的历史和 JAVA 的特性，C 语言能够实现面向对象吗？</h2><span id="more"></span>
 
+
+
 <h3 id="（1）Java语言的发展轨迹"><a href="#（1）Java语言的发展轨迹" class="headerlink" title="（1）Java语言的发展轨迹"></a>（1）Java语言的发展轨迹</h3><blockquote>
 <p>Java语言由Sun公司的詹姆斯高斯林等人于1990年代初开发Java语言的雏形，最初被命名为Oak。Java随着互联网技术的应用得到了快速发展，逐渐成为重要的网络编程语言。</p>
 <p>Java语言诞生于1994年，但可以溯源到1991年。1991年，在Sun公司工作的詹姆斯受命组织团队开发一个叫Oak的项目，目标设定在家用电器等小型系統的编程语言，來解决诸如电视机、电话、闹钟、烤面包机等家用电器的控制和通讯问题，由于这些智能化家电的市场需求没有预期的高，Sun公司放弃了该项计划。就在Oak几近失败之时。在1994年詹姆斯高斯林等人决定将该技术应用于互联网，将该语言改造为网络编程语言，这个语言就是Java语言的前身。</p>
@@ -450,11 +452,11 @@
 <h4 id="具体实现："><a href="#具体实现：" class="headerlink" title="具体实现："></a>具体实现：</h4><h5 id="抽象："><a href="#抽象：" class="headerlink" title="抽象："></a>抽象：</h5><p>类的思想通过struct实现，在struct里声明成员变量。（其实c++中struct也可以声明”类”，不同在于，struct中的成员变量默认为public，class中默认为private）</p>
 <p>成员函数（方法）通过函数指针来实现，并且通过一个指向该结构的指针来实现成员函数的调用、实现通过成员函数访问成员变量（c++中每个类的对象都有一个隐含的指针this）。</p>
 <h5 id="封装："><a href="#封装：" class="headerlink" title="封装："></a>封装：</h5><p>对于怎么把struct封装起来，我一时没有太多想法，查阅网络资料，大家一般想法是通过struct和union实现。</p>
-<p><a href="%5B(16%E6%9D%A1%E6%B6%88%E6%81%AF">具体实现</a> C语言之结构体实现共有、私有的思考(参考strongswan代码)_喝醉的鱼的博客-CSDN博客_struct 私有](<a target="_blank" rel="noopener" href="https://blog.csdn.net/u012895183/article/details/81544227?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&amp;utm_relevant_index=2))%E3%80%82">https://blog.csdn.net/u012895183/article/details/81544227?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&amp;utm_relevant_index=2))。</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/u012895183/article/details/81544227?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&utm_relevant_index=2">具体实现</a>。</p>
 <h5 id="继承："><a href="#继承：" class="headerlink" title="继承："></a>继承：</h5><p>继承是类之间的一种关系，目的是提高软件的可重用性和可扩展性。</p>
 <p>而我们知道，重用和扩展不一定需要通过继承实现，还可以通过组合实现。</p>
 <p>但是，组合”A中包含了B”，继承”A是一个更为特殊的B”，有差异。</p>
-<p><a href="%5B(16%E6%9D%A1%E6%B6%88%E6%81%AF">这里也先引用一下前人的思考，我实在是困了</a> C++ 继承底层原理总结_庭树的博客-CSDN博客_c++继承原理](<a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_36725931/article/details/85481857">https://blog.csdn.net/weixin_36725931/article/details/85481857</a>))</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_36725931/article/details/85481857">这里也先引用一下前人的思考，我实在是困了</a></p>
 <h5 id="多态性："><a href="#多态性：" class="headerlink" title="多态性："></a>多态性：</h5><p>C++中的多态是通过父类的指针或引用，调用了一个在父类中是virtual类型的函数，实现动态绑定机制。若想使用父类的指针&#x2F;引用调用子类的函数，需要在父类中将其声明为虚函数（virtual）。</p>
 <p>C语言实现多态性可效仿c++的机制，在每个有virtual函数的类的对象的成员变量之前隐式创造一个指向一张函数表的指针（函数表，即依次存储若干成员函数的函数地址，子类函数表的顺序与父类完全相同，其中虚函数地址被替换为新的函数地址）。若父类的成员函数存在虚函数，则对象通过指针或引用调用成员函数时，先访问该函数表，按照函数表找到真正要调用的函数。</p>
 
@@ -474,9 +476,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%90%8E%E7%AB%AF%E6%8B%9B%E6%96%B0%E9%A2%98/" rel="tag"># 工作室后端招新题</a>
-          
             <a href="/tags/Java/" rel="tag"># Java</a>
+          
+            <a href="/tags/%E5%B7%A5%E4%BD%9C%E5%AE%A4%E5%90%8E%E7%AB%AF%E6%8B%9B%E6%96%B0%E9%A2%98/" rel="tag"># 工作室后端招新题</a>
           
             <a href="/tags/C%E8%AF%AD%E8%A8%80/" rel="tag"># C语言</a>
           

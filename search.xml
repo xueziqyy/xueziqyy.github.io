@@ -159,6 +159,8 @@
     <url>/2022/03/30/Java%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86-%E6%80%9D%E8%80%83%E9%A2%984/</url>
     <content><![CDATA[<h4 id="学习-JAVA-基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象，-什么是继承"><a href="#学习-JAVA-基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象，-什么是继承" class="headerlink" title="学习 JAVA 基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象， 什么是继承"></a>学习 JAVA 基本知识，了解方法的概念，什么是重载，什么是重写，什么是类，什么是对象， 什么是继承</h4><span id="more"></span>
 
+
+
 <h5 id="方法（method）"><a href="#方法（method）" class="headerlink" title="方法（method）"></a>方法（method）</h5><p>按c++来理解：c++中的方法又叫成员函数。方法属于某个类，可以操纵该类的数据，public的方法是类留给外界的接口。</p>
 <blockquote>
 <p>方法和对象相关；函数和对象无关。</p>
@@ -189,14 +191,16 @@
         <category>Java</category>
       </categories>
       <tags>
-        <tag>工作室后端招新题</tag>
         <tag>Java</tag>
+        <tag>工作室后端招新题</tag>
       </tags>
   </entry>
   <entry>
     <title>数据库_云计算_思考题1</title>
     <url>/2022/03/30/%E6%95%B0%E6%8D%AE%E5%BA%93-%E4%BA%91%E8%AE%A1%E7%AE%97-%E6%80%9D%E8%80%83%E9%A2%981/</url>
     <content><![CDATA[<h4 id="对数据库有什么了解？为什么要有数据库？和云计算有什么关系？"><a href="#对数据库有什么了解？为什么要有数据库？和云计算有什么关系？" class="headerlink" title="对数据库有什么了解？为什么要有数据库？和云计算有什么关系？"></a>对数据库有什么了解？为什么要有数据库？和云计算有什么关系？</h4><span id="more"></span>
+
+
 
 <h5 id="（1）数据库"><a href="#（1）数据库" class="headerlink" title="（1）数据库"></a>（1）数据库</h5><p>数据库是“按照数据结构来组织、存储和管理数据的仓库”。是一个长期存储在计算机内的、有组织的、可共享的、统一管理的大量数据的集合。</p>
 <h5 id="（2）数据库的作用"><a href="#（2）数据库的作用" class="headerlink" title="（2）数据库的作用"></a>（2）数据库的作用</h5><p>组织、存储和管理数据。</p>
@@ -207,7 +211,7 @@
 <p>该服务通常以DBaaS (Database-as-a-Service)的形态，将数据库架构和实现细节隐藏起来，采用多租户和资源有效分发的形式将云资源自动管理起来，为用户提供一个能够满足弹性伸缩、高可用、高可靠、高安全性、强一致等需求，且可以随时随地访问的数据库服务。（来源网络）</p>
 <p>该服务具备自动化运维能力(仅需要极少的人力)，可提供自动备份和恢复、自动性能调优、自动对规模化的数据库集群的资源进行调节等可超越传统DBA所做工作的能力(具备智能数据库的特征)。这种能力使得云数据库系统托管和维护的成本降低，规模化地提高资源的利用率。（来源网络）</p>
 <p>云数据库支持按量(如流量、存储量、调用次数、调用时长、核数、内存资源占用量等)制定多种定价策略，使用户可根据业务情况灵活匹配出最优计量模式，节约用户成本。（来源网络）</p>
-<p>相关链接：<a href="%5B%E7%BB%88%E4%BA%8E%E6%9C%89%E4%BA%BA%E6%8A%8A%E4%BA%91%E8%AE%A1%E7%AE%97%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E5%85%B3%E7%B3%BB%E8%AE%B2%E6%98%8E%E7%99%BD%E4%BA%86-51CTO.COM%5D(https://www.51cto.com/article/689105.html)">数据库与云计算</a></p>
+<p>相关链接：<a href="https://www.51cto.com/article/689105.html">数据库与云计算</a></p>
 ]]></content>
       <categories>
         <category>学习</category>
@@ -223,6 +227,10 @@
     <title>IDEA配置_第一段Java代码_思考题2</title>
     <url>/2022/03/30/IDEA%E9%85%8D%E7%BD%AE_%E7%AC%AC%E4%B8%80%E6%AE%B5Java%E4%BB%A3%E7%A0%81_%E6%80%9D%E8%80%83%E9%A2%982/</url>
     <content><![CDATA[<h4 id="实现-IDEA-的安装，JDK-配置，环境配置，并运行一段-JAVA-程序（99-乘法表或冒泡排序）"><a href="#实现-IDEA-的安装，JDK-配置，环境配置，并运行一段-JAVA-程序（99-乘法表或冒泡排序）" class="headerlink" title="实现 IDEA 的安装，JDK 配置，环境配置，并运行一段 JAVA 程序（99 乘法表或冒泡排序）"></a>实现 IDEA 的安装，JDK 配置，环境配置，并运行一段 JAVA 程序（99 乘法表或冒泡排序）</h4><span id="more"></span>
+
+
+
+
 
 <h5 id="关于idea安装："><a href="#关于idea安装：" class="headerlink" title="关于idea安装："></a>关于idea安装：</h5><p>最初，我在官方网站下载了最新的idea社区版，但是找到的教程几乎都是用更老的旗舰版，为了第一次安装和配置顺利，我找到了和教程一样的版本（ideau 2017.3）。（百度云的下载速度简直是压死我的最后一只骆驼. - .）</p>
 <h5 id="关于jkd："><a href="#关于jkd：" class="headerlink" title="关于jkd："></a>关于jkd：</h5><p>java development kit的缩写，意思是java程序开发的工具包，是整个java开发的核心，它包含了JAVA的运行环境，JAVA工具和JAVA基础的类库。</p>
@@ -253,7 +261,7 @@
 <p>git：init、add、commit、checkout、brunch（new、checkout、merge&#x2F;rebase）。</p>
 <p>GitHub：share、push、pull、clone</p>
 <h5 id="运行一段Java程序"><a href="#运行一段Java程序" class="headerlink" title="运行一段Java程序"></a>运行一段Java程序</h5><p><del>(目前条件有限，正猫在一个地方码字，暂时先不把代码和运行截图po上来，明天再搞)</del></p>
-<p>一些[关于merge和rebase的使用](<a href="https://zhuanlan.zhihu.com/p/75499871">git merge和git rebase的区别, 切记：永远用rebase - 知乎 (zhihu.com)</a>)</p>
+<p>一些补充：<a href="https://zhuanlan.zhihu.com/p/75499871">关于merge和rebase的使用</a></p>
 ]]></content>
       <categories>
         <category>学习</category>
@@ -261,15 +269,17 @@
         <category>Java</category>
       </categories>
       <tags>
-        <tag>工作室后端招新题</tag>
         <tag>Java</tag>
         <tag>IDEA</tag>
+        <tag>工作室后端招新题</tag>
       </tags>
   </entry>
   <entry>
     <title>Java历史和特性_C 语言实现面向对象_思考题3</title>
     <url>/2022/03/30/Java%E5%8E%86%E5%8F%B2%E5%92%8C%E7%89%B9%E6%80%A7_C%20%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1_%E6%80%9D%E8%80%83%E9%A2%983/</url>
     <content><![CDATA[<h2 id="了解-JAVA-的历史和-JAVA-的特性，C-语言能够实现面向对象吗？"><a href="#了解-JAVA-的历史和-JAVA-的特性，C-语言能够实现面向对象吗？" class="headerlink" title="了解 JAVA 的历史和 JAVA 的特性，C 语言能够实现面向对象吗？"></a>了解 JAVA 的历史和 JAVA 的特性，C 语言能够实现面向对象吗？</h2><span id="more"></span>
+
+
 
 <h3 id="（1）Java语言的发展轨迹"><a href="#（1）Java语言的发展轨迹" class="headerlink" title="（1）Java语言的发展轨迹"></a>（1）Java语言的发展轨迹</h3><blockquote>
 <p>Java语言由Sun公司的詹姆斯高斯林等人于1990年代初开发Java语言的雏形，最初被命名为Oak。Java随着互联网技术的应用得到了快速发展，逐渐成为重要的网络编程语言。</p>
@@ -309,11 +319,11 @@
 <h4 id="具体实现："><a href="#具体实现：" class="headerlink" title="具体实现："></a>具体实现：</h4><h5 id="抽象："><a href="#抽象：" class="headerlink" title="抽象："></a>抽象：</h5><p>类的思想通过struct实现，在struct里声明成员变量。（其实c++中struct也可以声明”类”，不同在于，struct中的成员变量默认为public，class中默认为private）</p>
 <p>成员函数（方法）通过函数指针来实现，并且通过一个指向该结构的指针来实现成员函数的调用、实现通过成员函数访问成员变量（c++中每个类的对象都有一个隐含的指针this）。</p>
 <h5 id="封装："><a href="#封装：" class="headerlink" title="封装："></a>封装：</h5><p>对于怎么把struct封装起来，我一时没有太多想法，查阅网络资料，大家一般想法是通过struct和union实现。</p>
-<p><a href="%5B(16%E6%9D%A1%E6%B6%88%E6%81%AF">具体实现</a> C语言之结构体实现共有、私有的思考(参考strongswan代码)_喝醉的鱼的博客-CSDN博客_struct 私有](<a href="https://blog.csdn.net/u012895183/article/details/81544227?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&amp;utm_relevant_index=2))%E3%80%82">https://blog.csdn.net/u012895183/article/details/81544227?spm=1001.2101.3001.6650.1&amp;utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&amp;utm_relevant_index=2))。</a></p>
+<p><a href="https://blog.csdn.net/u012895183/article/details/81544227?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~Rate-1.pc_relevant_default&utm_relevant_index=2">具体实现</a>。</p>
 <h5 id="继承："><a href="#继承：" class="headerlink" title="继承："></a>继承：</h5><p>继承是类之间的一种关系，目的是提高软件的可重用性和可扩展性。</p>
 <p>而我们知道，重用和扩展不一定需要通过继承实现，还可以通过组合实现。</p>
 <p>但是，组合”A中包含了B”，继承”A是一个更为特殊的B”，有差异。</p>
-<p><a href="%5B(16%E6%9D%A1%E6%B6%88%E6%81%AF">这里也先引用一下前人的思考，我实在是困了</a> C++ 继承底层原理总结_庭树的博客-CSDN博客_c++继承原理](<a href="https://blog.csdn.net/weixin_36725931/article/details/85481857">https://blog.csdn.net/weixin_36725931/article/details/85481857</a>))</p>
+<p><a href="https://blog.csdn.net/weixin_36725931/article/details/85481857">这里也先引用一下前人的思考，我实在是困了</a></p>
 <h5 id="多态性："><a href="#多态性：" class="headerlink" title="多态性："></a>多态性：</h5><p>C++中的多态是通过父类的指针或引用，调用了一个在父类中是virtual类型的函数，实现动态绑定机制。若想使用父类的指针&#x2F;引用调用子类的函数，需要在父类中将其声明为虚函数（virtual）。</p>
 <p>C语言实现多态性可效仿c++的机制，在每个有virtual函数的类的对象的成员变量之前隐式创造一个指向一张函数表的指针（函数表，即依次存储若干成员函数的函数地址，子类函数表的顺序与父类完全相同，其中虚函数地址被替换为新的函数地址）。若父类的成员函数存在虚函数，则对象通过指针或引用调用成员函数时，先访问该函数表，按照函数表找到真正要调用的函数。</p>
 ]]></content>
@@ -323,8 +333,8 @@
         <category>Java</category>
       </categories>
       <tags>
-        <tag>工作室后端招新题</tag>
         <tag>Java</tag>
+        <tag>工作室后端招新题</tag>
         <tag>C语言</tag>
       </tags>
   </entry>
