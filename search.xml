@@ -62,6 +62,8 @@
     <content><![CDATA[<p>对于一个小白来说，搭建个人博客真的是一件很酷的事儿！！！</p>
 <span id="more"></span>
 
+
+
 <h5 id="在一切开始之前："><a href="#在一切开始之前：" class="headerlink" title="在一切开始之前："></a>在一切开始之前：</h5><p>我大概了解markdown文件的作用机制，且已经掌握git和github的基本用法，于此同时，我对搭建个人博客的难度几乎毫无认识。</p>
 <h5 id="开始干活："><a href="#开始干活：" class="headerlink" title="开始干活："></a>开始干活：</h5><p><strong>搜索了</strong><code>hexo</code>，了解到：</p>
 <p>Hexo是一个基于Node.js，快速、简洁且高效的博客框架。</p>
@@ -73,9 +75,13 @@
 <p><strong>安装hexo</strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure>
 
+
+
 <p><strong>生成博客</strong></p>
 <p>在D盘创建xueziqyy_blog文件夹，打开git bash。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo install</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
+
 
 <p><strong>本地测试</strong></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
@@ -90,7 +96,11 @@
 <p>此时遇到了第二个问题：因为安全原因，GitHub不再支持使用密码push，git repo配置地址出问题。</p>
 <p><code>err: Error: Spawn failed</code></p>
 <p>解决：将http方式变更为ssh方式。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">##进入站点根目录</span><br><span class="line">cd /usr/local/src/hexo/hanyubolg/</span><br><span class="line"></span><br><span class="line">##删除git提交内容文件夹</span><br><span class="line"></span><br><span class="line">vim _config.yml</span><br><span class="line"></span><br><span class="line">##修改</span><br><span class="line"></span><br><span class="line">deploy:</span><br><span class="line"></span><br><span class="line">type: git</span><br><span class="line"></span><br><span class="line">repo: https://github.com/yourname/yourname.github.io.git -&gt; git@github.com:XXXXXX.github.io.git</span><br><span class="line"></span><br><span class="line">branch: master</span><br><span class="line"></span><br><span class="line">##最后</span><br><span class="line"></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+<p>打开配置文件:  _config.yml</p>
+<p>修改: </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">type: git</span><br><span class="line">repo: </span><br><span class="line">https://github.com/yourname/yourname.github.io.git -&gt; git@github.com:XXXXXX.github.io.git</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure>
+
+
 
 <p><strong>生成第一个post文档</strong></p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo new &quot;hello&quot;</span><br></pre></td></tr></table></figure>
@@ -126,7 +136,16 @@
 <p><strong>增加社交链接</strong></p>
 <p><strong>添加favicon</strong></p>
 <p>在一个提供免费图标网站选了一个和我很有缘分的的月亮图标的png文件，在线把它转换为.ico，但是最后还是使用的.png格式。</p>
+<p><strong>增加置顶功能</strong></p>
+<p>借用现成的包：</p>
+ <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm uninstall hexo-generator-index --save</span><br><span class="line">$ npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
+
+<p>在需要置顶的文章的<code>Front-matter</code>中加上<code>top: true</code> 或者<code>top: 任意数字</code>。（top中数字越大，文章越靠前）</p>
+<p> 设置置顶图标（用了别人现成的代码）。</p>
 <p>——tbc</p>
+<p> 参考文档：</p>
+<p><a href="https://www.jianshu.com/p/a9922c3ebb61">Hexo nexT主题之文章置顶 - 简书 (jianshu.com)</a></p>
+<p>其它：</p>
 <p><a href="https://hexo.io/zh-cn/docs/writing">Hexo官方教程</a></p>
 <h5 id="typora常用快捷键和语法"><a href="#typora常用快捷键和语法" class="headerlink" title="typora常用快捷键和语法"></a>typora常用快捷键和语法</h5><p>标题：Ctrl+1、2、3…对应一、二、三…级标题（光标定位到需要设置为标题的行，按快捷键）</p>
 <p><strong>加粗</strong>：Ctrl+B（选中要加粗的文本，按快捷键）</p>
